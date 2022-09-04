@@ -1,7 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 
 import "./FooterComp.css";
 
@@ -12,16 +9,16 @@ const FooterComp = () => {
         <div class="col-md-4 footer-column">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <span class="footer-title">Product</span>
+              <span class="footer-title">SEITEN</span>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Product 1
+                ONLINE COACHING
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Product 2
+                CONTACT
               </a>
             </li>
             <li class="nav-item">
@@ -39,7 +36,7 @@ const FooterComp = () => {
         <div class="col-md-4 footer-column">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <span class="footer-title">Company</span>
+              <span class="footer-title">Dienstleistungen</span>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
@@ -61,27 +58,17 @@ const FooterComp = () => {
         <div class="col-md-4 footer-column">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <span class="footer-title">Contact & Support</span>
+              <span class="footer-title">KONTAKT</span>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-envelope"></i>megalodoncoaching@gmail.com
+              </a>
             </li>
             <li class="nav-item">
               <span class="nav-link">
-                <i class="fas fa-phone"></i>+47 45 80 80 80
+                <i class="fas fa-phone"></i>+43 699 108444 11
               </span>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fas fa-comments"></i>Live chat
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fas fa-envelope"></i>Contact us
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fas fa-star"></i>Give feedback
-              </a>
             </li>
           </ul>
         </div>
@@ -94,7 +81,7 @@ const FooterComp = () => {
       <div class="row text-center">
         <div class="col-md-4 box">
           <span class="copyright quick-links">
-            Copyright &copy; Your Website <script>document.write(new Date().getFullYear())</script>
+            &copy; Marcel Hacker <script>document.write(new Date().getFullYear())</script>
           </span>
         </div>
         <div class="col-md-4 box">
@@ -119,10 +106,10 @@ const FooterComp = () => {
         <div class="col-md-4 box">
           <ul class="list-inline quick-links">
             <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
+              <a href="#">Datenschutzerklärung</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
+              <a href="#">Impressum</a>
             </li>
           </ul>
         </div>
