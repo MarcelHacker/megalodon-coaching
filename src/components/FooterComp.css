@@ -1,9 +1,9 @@
-.col-md-4:nth-child(even) {
+/* .col-md-4:nth-child(even) {
   background: #1a1d20;
 }
 .col-md-4:nth-child(odd) {
   background: #1a1d20;
-}
+} */
 
 .footer {
   background-color: #1a1d20;
@@ -65,7 +65,7 @@ span.footer-title {
 }
 
 ul.social-buttons {
-  margin-bottom: 0;
+  margin-bottom: 0.3rem;
 }
 
 ul.social-buttons li a:active,
