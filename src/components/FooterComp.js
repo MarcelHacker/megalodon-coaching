@@ -4,7 +4,7 @@ import "./FooterComp.css";
 
 const FooterComp = () => {
   return (
-    <div class="container">
+    <div class="footer">
       <div class="row">
         <div class="col-md-4 footer-column">
           <ul class="nav flex-column">
@@ -106,10 +106,10 @@ const FooterComp = () => {
         <div class="col-md-4 box">
           <ul class="list-inline quick-links">
             <li class="list-inline-item">
-              <a href="#">Datenschutzerklärung</a>
+              <a href="/">Datenschutzerklärung</a>
             </li>
             <li class="list-inline-item">
-              <a href="#">Impressum</a>
+              <a href="/">Impressum</a>
             </li>
           </ul>
         </div>
