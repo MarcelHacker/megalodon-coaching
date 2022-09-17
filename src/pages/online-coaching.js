@@ -21,7 +21,7 @@ export default () => {
   ];
   return (
     <div>
-      <h1>Online Coaching</h1>
+      <h1>Dienstleistungen</h1>
       <div>
         <row>
           <colum className="mx-2">

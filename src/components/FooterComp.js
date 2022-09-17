@@ -13,12 +13,12 @@ const FooterComp = () => {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/online-coaching">
-                ONLINE COACHING
+                LEISTUNGEN
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/contact">
-                CONTACT
+                KONTAKT
               </a>
             </li>
             <li class="nav-item">
@@ -66,8 +66,8 @@ const FooterComp = () => {
               </a>
             </li>
             <li class="nav-item">
-              <span class="nav-link">
-                <i class="fas fa-phone"></i>+43 699 108444 11
+              <span class="nav-link" href="#">
+                <i class="fas fa-phone"></i>
               </span>
             </li>
           </ul>
