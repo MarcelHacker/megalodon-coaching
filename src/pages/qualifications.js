@@ -9,14 +9,11 @@ export default () => {
   return (
     <div>
       <h1>Qualifikationen</h1>
-      <Card style={{width: "18rem"}}>
+      <Card style={{width: "25rem"}}>
         <Card.Img variant="top" src={urkunde} />
         <Card.Body>
-          <Card.Title>Powerlifting Academy Trainerausbildung</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's
-            content.
-          </Card.Text>
+          <Card.Title>Powerlifting Academy</Card.Title>
+          <Card.Text>Trainerausbildung Kraftdreikampf 2022</Card.Text>
         </Card.Body>
       </Card>
     </div>
