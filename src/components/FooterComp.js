@@ -4,112 +4,112 @@ import "./FooterComp.css";
 
 const FooterComp = () => {
   return (
-    <div class="footer">
-      <div class="row">
-        <div class="col-md-4 footer-column">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <span class="footer-title">SEITEN</span>
+    <div className="footer">
+      <div className="row">
+        <div className="col-md-4 footer-column">
+          <ul className="nav flex-column">
+            <li className="nav-item">
+              <span className="footer-title">SEITEN</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/online-coaching">
+            <li className="nav-item">
+              <a className="nav-link" href="/online-coaching">
                 LEISTUNGEN
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
                 KONTAKT
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/qualifications">
+            <li className="nav-item">
+              <a className="nav-link" href="/qualifications">
                 QUALIFIKATIONEN
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/faq">
+            <li className="nav-item">
+              <a className="nav-link" href="/faq">
                 FAQ
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4 footer-column">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <span class="footer-title">Dienstleistungen</span>
+        <div className="col-md-4 footer-column">
+          <ul className="nav flex-column">
+            <li className="nav-item">
+              <span className="footer-title">Dienstleistungen</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 ONLINE COACHING
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 INDIVIDUELLER TRAININGSPLAN
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
                 TECHNIKANALYSE
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4 footer-column">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <span class="footer-title">KONTAKT</span>
+        <div className="col-md-4 footer-column">
+          <ul className="nav flex-column">
+            <li className="nav-item">
+              <span className="footer-title">KONTAKT</span>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="fas fa-envelope"></i>megalodoncoaching@gmail.com
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                <i className="fas fa-envelope"></i>megalodoncoaching@gmail.com
               </a>
             </li>
-            <li class="nav-item">
-              <span class="nav-link" href="#">
-                <i class="fas fa-phone"></i>
+            <li className="nav-item">
+              <span className="nav-link" href="#">
+                <i className="fas fa-phone"></i>
               </span>
             </li>
           </ul>
         </div>
       </div>
 
-      <div class="text-center">
-        <i class="fas fa-ellipsis-h"></i>
+      <div className="text-center">
+        <i className="fas fa-ellipsis-h"></i>
       </div>
 
-      <div class="row text-center">
-        <div class="col-md-4 box">
-          <span class="copyright quick-links">
+      <div className="row text-center">
+        <div className="col-md-4 box">
+          <span className="copyright quick-links">
             &copy; 2022 Marcel Hacker. <script>document.write({new Date().getFullYear()})</script>
           </span>
         </div>
-        <div class="col-md-4 box">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
+        <div className="col-md-4 box">
+          <ul className="list-inline social-buttons">
+            <li className="list-inline-item">
               <a href="https://www.youtube.com/channel/UCfheKLT7wZfCWF3sY5BFHeA?app=desktop">
-                <i class="fab fa-youtube"></i>
+                <i className="fab fa-youtube"></i>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="https://www.instagram.com/megalodon_coaching/">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </li>
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="#">
-                <i class="fab fa-telegram"></i>
+                <i className="fab fa-telegram"></i>
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4 box">
-          <ul class="list-inline quick-links">
-            <li class="list-inline-item">
+        <div className="col-md-4 box">
+          <ul className="list-inline quick-links">
+            <li className="list-inline-item">
               <a href="/">Datenschutzerklärung</a>
             </li>
 
-            <li class="list-inline-item">
+            <li className="list-inline-item">
               <a href="/">Impressum</a>
             </li>
           </ul>
