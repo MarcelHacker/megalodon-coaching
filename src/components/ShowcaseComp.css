@@ -5,3 +5,12 @@ a:hover {
   color: #fec503;
   text-decoration: none;
 }
+
+.card {
+  position: fixed;
+  top: 10px;
+}
+.card-title {
+  position: relative;
+  top: 400px;
+}

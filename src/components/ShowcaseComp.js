@@ -7,8 +7,10 @@ const ShowcaseComp = (props) => {
   return (
     <div>
       <Card>
-        <Card.Img src={props.src} height={props.height} alt={props.alt}></Card.Img>
-        {props.title}
+        <Card.Img variant="top" src={props.src} height={props.height} alt={props.alt} />
+        <Card.ImgOverlay className="bto">
+          <Card.Title>{props.title}</Card.Title>
+        </Card.ImgOverlay>
       </Card>
     </div>
   );
