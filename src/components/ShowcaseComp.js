@@ -8,8 +8,8 @@ const ShowcaseComp = (props) => {
     <div>
       <Card>
         <Card.Img variant="top" src={props.src} height={props.height} alt={props.alt} />
-        <Card.ImgOverlay className="bto">
-          <Card.Title>{props.title}</Card.Title>
+        <Card.ImgOverlay>
+          <Card.Title className="bto">{props.title}</Card.Title>
         </Card.ImgOverlay>
       </Card>
     </div>
