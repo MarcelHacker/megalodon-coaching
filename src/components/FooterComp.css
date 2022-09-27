@@ -1,12 +1,15 @@
-/* .col-md-4:nth-child(even) {
-  background: #1a1d20;
-}
-.col-md-4:nth-child(odd) {
-  background: #1a1d20;
-} */
-
 .footer {
   background-color: #1a1d20;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  background-color: #212529;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 a {
@@ -20,11 +23,6 @@ a:hover {
 ::selection {
   background: #fec503;
   text-shadow: none;
-}
-
-footer {
-  background-color: #212529;
-  padding-bottom: 2rem;
 }
 
 .footer-column:not(:first-child) {
