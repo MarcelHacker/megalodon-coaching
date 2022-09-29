@@ -28,8 +28,9 @@ export default () => {
                   "Du erhältst ein auf deine Ziele und Bedürfnisse individualisiertes Trainingsprogramm"
                 }
               />
-              <Button variant="primary" href="/contact">
-                Anfragen
+              <Button variant="primary" href="megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message">
+Anfragen
+            
               </Button>
             </Card>
           </Col>
@@ -44,8 +45,9 @@ export default () => {
                   "Online Coaching inkludiert ein wöchentliches Check-In, unlimitierte Textkommunikation via Messenger und Technikanalyse deiner Übungsausführung per Video oder Text."
                 }
               />
-              <Button variant="primary" href="/contact">
-                Anfragen
+              <Button variant="primary" href="mailto:megalodoncoaching@gmail.com?subject = Online Coaching&body = Message">
+Anfragen
+            
               </Button>
             </Card>
           </Col>
