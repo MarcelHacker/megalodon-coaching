@@ -1,4 +1,5 @@
 import React from "react";
+import { YouTube,Instagram, Telegram} from "@material-ui/icons";
 
 import "./FooterComp.css";
 
@@ -88,17 +89,17 @@ const FooterComp = () => {
           <ul className="list-inline social-buttons">
             <li className="list-inline-item">
               <a href="https://www.youtube.com/channel/UCfheKLT7wZfCWF3sY5BFHeA?app=desktop">
-                <i className="fab fa-youtube"></i>
+                <YouTube/>
               </a>
             </li>
             <li className="list-inline-item">
               <a href="https://www.instagram.com/megalodon_coaching/">
-                <i className="fab fa-instagram"></i>
+                <Instagram/>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="#">
-                <i className="fab fa-telegram"></i>
+              <a href="/contact">
+                <Telegram/>
               </a>
             </li>
           </ul>
@@ -107,6 +108,7 @@ const FooterComp = () => {
           <ul className="list-inline quick-links">
             <li className="list-inline-item">
               <a href="/">Datenschutzerklärung</a>
+              <i className="fab fa-telegram"></i>
             </li>
 
             <li className="list-inline-item">
