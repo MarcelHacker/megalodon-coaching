@@ -750,7 +750,7 @@ function NavbarComp() {
     href: "/"
   }, /*#__PURE__*/external_react_default.a.createElement("img", {
     alt: "",
-    src: "/logo.svg",
+    src: "/logo.png",
     width: "30",
     height: "30",
     className: "d-inline-block align-top"
