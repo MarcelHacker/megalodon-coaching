@@ -28,7 +28,7 @@ export default () => {
                   "Du erhältst ein auf deine Ziele und Bedürfnisse individualisiertes Trainingsprogramm"
                 }
               />
-              <Button variant="primary" href="megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message">
+              <Button variant="primary" href="mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message">
 Anfragen
             
               </Button>
