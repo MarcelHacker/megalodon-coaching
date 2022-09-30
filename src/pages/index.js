@@ -10,8 +10,8 @@ import { useSpring, animated} from 'react-spring';
 import plan from "../assets/plan.jpg";
 
 export default () => {
-  const width = "300";
-  const height = "400";
+  const width = "410rem";
+  const height = "410rem";
   
   return (
     <div style={{textAlign: "center"}}>
