@@ -18,7 +18,7 @@ export default () => {
       <Container>
         <Row>
           <Col>
-            <Card style={{width: "19rem"}}>
+            <Card style={{ width: "19rem" }}>
               <FigureComp
                 width={width}
                 height={height}
@@ -28,14 +28,16 @@ export default () => {
                   "Du erhältst ein auf deine Ziele und Bedürfnisse individualisiertes Trainingsprogramm"
                 }
               />
-              <Button variant="primary" href="mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message">
-Anfragen
-            
+              <Button
+                variant="primary"
+                href="mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message"
+              >
+                Anfragen
               </Button>
             </Card>
           </Col>
           <Col>
-            <Card style={{width: "25rem"}}>
+            <Card style={{ width: "25rem" }}>
               <FigureComp
                 width={555}
                 height={height}
@@ -45,9 +47,11 @@ Anfragen
                   "Online Coaching inkludiert ein wöchentliches Check-In, unlimitierte Textkommunikation via Messenger und Technikanalyse deiner Übungsausführung per Video oder Text."
                 }
               />
-              <Button variant="primary" href="mailto:megalodoncoaching@gmail.com?subject = Online Coaching&body = Message">
-Anfragen
-            
+              <Button
+                variant="primary"
+                href="mailto:megalodoncoaching@gmail.com?subject = Online Coaching&body = Message"
+              >
+                Anfragen
               </Button>
             </Card>
           </Col>

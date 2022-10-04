@@ -1,10 +1,10 @@
 import React from "react";
-import {useRouteData} from "react-static";
+import { useRouteData } from "react-static";
 //
-import {Link} from "components/Router";
+import { Link } from "components/Router";
 
 export default function Blog() {
-  const {posts} = useRouteData();
+  const { posts } = useRouteData();
   return (
     <div>
       <h1>It's blog time.</h1>

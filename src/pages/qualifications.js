@@ -9,7 +9,7 @@ export default () => {
   return (
     <div>
       <h1>Qualifikationen</h1>
-      <Card style={{width: "25rem"}}>
+      <Card style={{ width: "25rem" }}>
         <Card.Img variant="top" src={urkunde} />
         <Card.Body>
           <Card.Title>Powerlifting Academy</Card.Title>
