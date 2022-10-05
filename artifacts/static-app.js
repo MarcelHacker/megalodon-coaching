@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 46);
+/******/ 	return __webpack_require__(__webpack_require__.s = 41);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -144,7 +144,7 @@ module.exports = require("babel-plugin-universal-import/universalImport");
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(19);
+var _typeof = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -183,7 +183,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(52);
+var _requireUniversalModule = __webpack_require__(47);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -198,7 +198,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(53);
+var _reportChunks = __webpack_require__(49);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -212,23 +212,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(27);
+var _propTypes = __webpack_require__(21);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(29);
+var _hoistNonReactStatics = __webpack_require__(23);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _context = __webpack_require__(28);
+var _context = __webpack_require__(22);
 
 var _context2 = _interopRequireDefault(_context);
 
-var _utils = __webpack_require__(12);
+var _utils = __webpack_require__(15);
 
-var _helpers = __webpack_require__(54);
+var _helpers = __webpack_require__(50);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -612,26 +612,26 @@ function universal(asyncModule) {
     return UniversalComponent;
   }(_react2["default"].Component), _class.contextType = _context2["default"], _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(51)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(46)(module)))
 
 /***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-static");
+module.exports = require("react-bootstrap");
 
 /***/ }),
 /* 6 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-bootstrap/Col");
+module.exports = require("react-static");
 
 /***/ }),
 /* 7 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(11);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(10);
 /* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_reach_router__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "a", function() { return _reach_router__WEBPACK_IMPORTED_MODULE_0__["Link"]; });
 
@@ -641,18 +641,6 @@ module.exports = require("react-bootstrap/Col");
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap");
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/plan.ba027212.jpg";
-
-/***/ }),
-/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -662,11 +650,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(12);
+var _utils = __webpack_require__(15);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(25)("" + id);
+    return __webpack_require__(48)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -675,19 +663,270 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 11 */
+/* 9 */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons");
+
+/***/ }),
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
 
 /***/ }),
+/* 11 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Nav");
+
+/***/ }),
 /* 12 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Figure");
+
+/***/ }),
+/* 13 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(0);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+
+// EXTERNAL MODULE: external "react-static"
+var external_react_static_ = __webpack_require__(6);
+
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/Router.js
+var Router = __webpack_require__(7);
+
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/containers/Dynamic.js
+
+/* harmony default export */ var Dynamic = (function () {
+  return /*#__PURE__*/external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
+});
+// EXTERNAL MODULE: external "react-bootstrap/Container"
+var Container_ = __webpack_require__(17);
+var Container_default = /*#__PURE__*/__webpack_require__.n(Container_);
+
+// EXTERNAL MODULE: external "react-bootstrap/Navbar"
+var Navbar_ = __webpack_require__(19);
+var Navbar_default = /*#__PURE__*/__webpack_require__.n(Navbar_);
+
+// EXTERNAL MODULE: external "react-bootstrap/Nav"
+var Nav_ = __webpack_require__(11);
+var Nav_default = /*#__PURE__*/__webpack_require__.n(Nav_);
+
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/shared/NavbarComp.js
+
+
+
+
+
+function NavbarComp() {
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(Navbar_default.a, {
+    variant: "dark"
+  }, /*#__PURE__*/external_react_default.a.createElement(Container_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Navbar_default.a.Brand, {
+    href: "/"
+  }, /*#__PURE__*/external_react_default.a.createElement("img", {
+    alt: "",
+    src: "/logo.png",
+    width: "30",
+    height: "30",
+    className: "d-inline-block align-top"
+  }), " ", "Megalodon Coaching"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
+    href: "/online-coaching"
+  }, "ONLINE COACHING"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
+    href: "/contact"
+  }, "KONTAKT"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
+    href: "/qualifications"
+  }, "QUALIFIKATIONEN"))));
+}
+
+/* harmony default export */ var shared_NavbarComp = (NavbarComp);
+// EXTERNAL MODULE: external "@material-ui/icons"
+var icons_ = __webpack_require__(9);
+
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/shared/FooterComp.css
+var shared_FooterComp = __webpack_require__(58);
+
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/shared/FooterComp.js
+
+
+
+
+var FooterComp_FooterComp = function FooterComp() {
+  return /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "footer"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 footer-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "nav flex-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "footer-title"
+  }, "SEITEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/online-coaching"
+  }, "LEISTUNGEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/contact"
+  }, "KONTAKT")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/qualifications"
+  }, "QUALIFIKATIONEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/faq"
+  }, "FAQ")))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 footer-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "nav flex-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "footer-title"
+  }, "Dienstleistungen")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/online-coaching"
+  }, "ONLINE COACHING")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/online-coaching"
+  }, "INDIVIDUELLER TRAININGSPLAN")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "/online-coaching"
+  }, "TECHNIKANALYSE")))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 footer-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "nav flex-column"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "footer-title"
+  }, "KONTAKT")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    className: "nav-link",
+    href: "mailto:megalodoncoaching@gmail.com?subject = Anfrage&body = Message"
+  }, /*#__PURE__*/external_react_default.a.createElement(icons_["Email"], {
+    style: {
+      color: "#fec503"
+    }
+  }), " megalodoncoaching@gmail.com")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "nav-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "nav-link",
+    href: "#"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fas fa-phone"
+  })))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/external_react_default.a.createElement("i", {
+    className: "fas fa-ellipsis-h"
+  })), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "row text-center"
+  }, /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 box"
+  }, /*#__PURE__*/external_react_default.a.createElement("span", {
+    className: "copyright quick-links"
+  }, "\xA9 2022 Marcel Hacker. ", /*#__PURE__*/external_react_default.a.createElement("script", null, "document.write(", new Date().getFullYear(), ")"))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 box"
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "list-inline social-buttons"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "list-inline-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://www.youtube.com/channel/UCfheKLT7wZfCWF3sY5BFHeA?app=desktop"
+  }, /*#__PURE__*/external_react_default.a.createElement(icons_["YouTube"], null))), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "list-inline-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "https://www.instagram.com/megalodon_coaching/"
+  }, /*#__PURE__*/external_react_default.a.createElement(icons_["Instagram"], null))), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "list-inline-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/contact"
+  }, /*#__PURE__*/external_react_default.a.createElement(icons_["Telegram"], null))))), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "col-md-4 box"
+  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
+    className: "list-inline quick-links"
+  }, /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "list-inline-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/privacy"
+  }, "Datenschutzerkl\xE4rung")), /*#__PURE__*/external_react_default.a.createElement("li", {
+    className: "list-inline-item"
+  }, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: "/imprint"
+  }, "Impressum"))))));
+};
+
+/* harmony default export */ var components_shared_FooterComp = (FooterComp_FooterComp);
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/app.css
+var app = __webpack_require__(59);
+
+// EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
+var bootstrap_min_css_ = __webpack_require__(60);
+
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/App.js
+
+ //
+
+
+ // comps
+
+
+
+
+ // Any routes that start with 'dynamic' will be treated as non-static routes
+
+Object(external_react_static_["addPrefetchExcludes"])(["dynamic"]);
+
+function App() {
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(shared_NavbarComp, null), /*#__PURE__*/external_react_default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
+    fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
+  }, /*#__PURE__*/external_react_default.a.createElement(Router["b" /* Router */], null, /*#__PURE__*/external_react_default.a.createElement(Dynamic, {
+    path: "dynamic"
+  }), /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], {
+    path: "*"
+  })))), /*#__PURE__*/external_react_default.a.createElement(components_shared_FooterComp, null));
+}
+
+/* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/typeof");
+
+/***/ }),
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(19);
+var _typeof2 = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -718,7 +957,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(10);
+var _requireById = __webpack_require__(8);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -847,270 +1086,7 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 13 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Container");
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Row");
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Nav");
-
-/***/ }),
 /* 16 */
-/***/ (function(module, exports) {
-
-module.exports = require("@material-ui/icons");
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Figure");
-
-/***/ }),
-/* 18 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(0);
-var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
-
-// EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(5);
-
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/Router.js
-var Router = __webpack_require__(7);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/containers/Dynamic.js
-
-/* harmony default export */ var Dynamic = (function () {
-  return /*#__PURE__*/external_react_default.a.createElement("div", null, "This is a dynamic page! It will not be statically exported, but is available at runtime");
-});
-// EXTERNAL MODULE: external "react-bootstrap/Container"
-var Container_ = __webpack_require__(13);
-var Container_default = /*#__PURE__*/__webpack_require__.n(Container_);
-
-// EXTERNAL MODULE: external "react-bootstrap/Navbar"
-var Navbar_ = __webpack_require__(22);
-var Navbar_default = /*#__PURE__*/__webpack_require__.n(Navbar_);
-
-// EXTERNAL MODULE: external "react-bootstrap/Nav"
-var Nav_ = __webpack_require__(15);
-var Nav_default = /*#__PURE__*/__webpack_require__.n(Nav_);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/NavbarComp.js
-
-
-
-
-
-function NavbarComp() {
-  return /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Fragment, null, /*#__PURE__*/external_react_default.a.createElement(Navbar_default.a, {
-    variant: "dark"
-  }, /*#__PURE__*/external_react_default.a.createElement(Container_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Navbar_default.a.Brand, {
-    href: "/"
-  }, /*#__PURE__*/external_react_default.a.createElement("img", {
-    alt: "",
-    src: "/logo.png",
-    width: "30",
-    height: "30",
-    className: "d-inline-block align-top"
-  }), " ", "Megalodon Coaching"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
-    href: "/online-coaching"
-  }, "ONLINE COACHING"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
-    href: "/contact"
-  }, "KONTAKT"), /*#__PURE__*/external_react_default.a.createElement(Nav_default.a.Link, {
-    href: "/qualifications"
-  }, "QUALIFIKATIONEN"))));
-}
-
-/* harmony default export */ var components_NavbarComp = (NavbarComp);
-// EXTERNAL MODULE: external "@material-ui/icons"
-var icons_ = __webpack_require__(16);
-
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/FooterComp.css
-var components_FooterComp = __webpack_require__(62);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/FooterComp.js
-
-
-
-
-var FooterComp_FooterComp = function FooterComp() {
-  return /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "footer"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 footer-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "nav flex-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", {
-    className: "footer-title"
-  }, "SEITEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "/online-coaching"
-  }, "LEISTUNGEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "/contact"
-  }, "KONTAKT")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "/qualifications"
-  }, "QUALIFIKATIONEN")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "/faq"
-  }, "FAQ")))), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 footer-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "nav flex-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", {
-    className: "footer-title"
-  }, "Dienstleistungen")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "#"
-  }, "ONLINE COACHING")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "#"
-  }, "INDIVIDUELLER TRAININGSPLAN")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "#"
-  }, "TECHNIKANALYSE")))), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 footer-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "nav flex-column"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", {
-    className: "footer-title"
-  }, "KONTAKT")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    className: "nav-link",
-    href: "#"
-  }, /*#__PURE__*/external_react_default.a.createElement("i", {
-    className: "fas fa-envelope"
-  }), "megalodoncoaching@gmail.com")), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "nav-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", {
-    className: "nav-link",
-    href: "#"
-  }, /*#__PURE__*/external_react_default.a.createElement("i", {
-    className: "fas fa-phone"
-  })))))), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "text-center"
-  }, /*#__PURE__*/external_react_default.a.createElement("i", {
-    className: "fas fa-ellipsis-h"
-  })), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "row text-center"
-  }, /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 box"
-  }, /*#__PURE__*/external_react_default.a.createElement("span", {
-    className: "copyright quick-links"
-  }, "\xA9 2022 Marcel Hacker. ", /*#__PURE__*/external_react_default.a.createElement("script", null, "document.write(", new Date().getFullYear(), ")"))), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 box"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "list-inline social-buttons"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "list-inline-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.youtube.com/channel/UCfheKLT7wZfCWF3sY5BFHeA?app=desktop"
-  }, /*#__PURE__*/external_react_default.a.createElement(icons_["YouTube"], null))), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "list-inline-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "https://www.instagram.com/megalodon_coaching/"
-  }, /*#__PURE__*/external_react_default.a.createElement(icons_["Instagram"], null))), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "list-inline-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "/contact"
-  }, /*#__PURE__*/external_react_default.a.createElement(icons_["Telegram"], null))))), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "col-md-4 box"
-  }, /*#__PURE__*/external_react_default.a.createElement("ul", {
-    className: "list-inline quick-links"
-  }, /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "list-inline-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "/"
-  }, "Datenschutzerkl\xE4rung"), /*#__PURE__*/external_react_default.a.createElement("i", {
-    className: "fab fa-telegram"
-  })), /*#__PURE__*/external_react_default.a.createElement("li", {
-    className: "list-inline-item"
-  }, /*#__PURE__*/external_react_default.a.createElement("a", {
-    href: "/"
-  }, "Impressum"))))));
-};
-
-/* harmony default export */ var src_components_FooterComp = (FooterComp_FooterComp);
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/app.css
-var app = __webpack_require__(63);
-
-// EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
-var bootstrap_min_css_ = __webpack_require__(64);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/App.js
-
- //
-
-
- // comps
-
-
-
-
- // Any routes that start with 'dynamic' will be treated as non-static routes
-
-Object(external_react_static_["addPrefetchExcludes"])(["dynamic"]);
-
-function App() {
-  return /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Root"], null, /*#__PURE__*/external_react_default.a.createElement(components_NavbarComp, null), /*#__PURE__*/external_react_default.a.createElement("div", {
-    className: "content"
-  }, /*#__PURE__*/external_react_default.a.createElement(external_react_default.a.Suspense, {
-    fallback: /*#__PURE__*/external_react_default.a.createElement("em", null, "Loading...")
-  }, /*#__PURE__*/external_react_default.a.createElement(Router["b" /* Router */], null, /*#__PURE__*/external_react_default.a.createElement(Dynamic, {
-    path: "dynamic"
-  }), /*#__PURE__*/external_react_default.a.createElement(external_react_static_["Routes"], {
-    path: "*"
-  })))), /*#__PURE__*/external_react_default.a.createElement(src_components_FooterComp, null));
-}
-
-/* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/typeof");
-
-/***/ }),
-/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1201,93 +1177,37 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 21 */
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Container");
+
+/***/ }),
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 22 */
+/* 19 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-bootstrap/Navbar");
 
 /***/ }),
-/* 23 */
+/* 20 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-bootstrap/Button");
+module.exports = require("E:\\Users\\ihack\\Dokumente\\source\\megalodon-coaching\\node_modules\\react-static\\lib\\browser");
 
 /***/ }),
-/* 24 */
-/***/ (function(module, exports) {
-
-module.exports = require("/Users/marcelhacker/Documents/source/megalodon-coaching/node_modules/react-static/lib/browser");
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	".": 10,
-	"./": 10,
-	"./index": 10,
-	"./index 2": 26,
-	"./index 2.js": 26,
-	"./index.js": 10
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return map[req];
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 25;
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _utils = __webpack_require__(12);
-
-var requireById = function requireById(id) {
-  if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(25)("" + id);
-  }
-
-  return __webpack_require__('' + id);
-};
-
-exports["default"] = requireById;
-
-/***/ }),
-/* 27 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 28 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1314,25 +1234,25 @@ var ReportContext = _react2["default"].createContext({
 exports["default"] = ReportContext;
 
 /***/ }),
-/* 29 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 30 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 31 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 32 */
+/* 26 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1347,7 +1267,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 33 */
+/* 27 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1360,7 +1280,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 34 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1368,7 +1288,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 
@@ -1395,7 +1315,7 @@ function Blog() {
 }
 
 /***/ }),
-/* 35 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1404,7 +1324,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1427,7 +1347,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 36 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1436,7 +1356,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1457,7 +1377,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 37 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1466,7 +1386,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(45);
+/* harmony import */ var _assets_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(40);
 /* harmony import */ var _assets_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1485,7 +1405,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 38 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1493,7 +1413,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Post; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5);
+/* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6);
 /* harmony import */ var react_static__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_static__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var components_Router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 
@@ -1510,7 +1430,7 @@ function Post() {
 }
 
 /***/ }),
-/* 39 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1522,52 +1442,102 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-bootstrap"
-var external_react_bootstrap_ = __webpack_require__(8);
-
-// EXTERNAL MODULE: external "react-bootstrap/Row"
-var Row_ = __webpack_require__(14);
-var Row_default = /*#__PURE__*/__webpack_require__.n(Row_);
-
-// EXTERNAL MODULE: external "react-bootstrap/Col"
-var Col_ = __webpack_require__(6);
-var Col_default = /*#__PURE__*/__webpack_require__.n(Col_);
+var external_react_bootstrap_ = __webpack_require__(5);
 
 // EXTERNAL MODULE: external "react-bootstrap/Card"
 var Card_ = __webpack_require__(1);
 var Card_default = /*#__PURE__*/__webpack_require__.n(Card_);
 
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/ShowcaseComp.css
-var components_ShowcaseComp = __webpack_require__(65);
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/caseCard/CaseCard.css
+var caseCard_CaseCard = __webpack_require__(61);
 
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/ShowcaseComp.js
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/caseCard/CaseCard.js
+
+ // css
 
 
 
-
-var ShowcaseComp_ShowcaseComp = function ShowcaseComp(props) {
-  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement(Card_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Card_default.a.Img, {
+var CaseCard_CaseCard = function CaseCard(_ref) {
+  var href = _ref.href,
+      src = _ref.src,
+      height = _ref.height,
+      width = _ref.width,
+      alt = _ref.alt,
+      title = _ref.title;
+  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("a", {
+    href: href
+  }, /*#__PURE__*/external_react_default.a.createElement(Card_default.a, {
+    className: "case",
+    width: width
+  }, /*#__PURE__*/external_react_default.a.createElement(Card_default.a.Img, {
     variant: "top",
-    src: props.src,
-    height: props.height,
-    alt: props.alt
+    src: src,
+    height: height,
+    alt: alt
   }), /*#__PURE__*/external_react_default.a.createElement(Card_default.a.ImgOverlay, null, /*#__PURE__*/external_react_default.a.createElement(Card_default.a.Title, {
     className: "bto"
-  }, props.title))));
+  }, title)))));
 };
 
-/* harmony default export */ var src_components_ShowcaseComp = (ShowcaseComp_ShowcaseComp);
+/* harmony default export */ var components_caseCard_CaseCard = (CaseCard_CaseCard);
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/assets/bodybuilding.jpg
+var bodybuilding = __webpack_require__(37);
+var bodybuilding_default = /*#__PURE__*/__webpack_require__.n(bodybuilding);
+
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/assets/powerlifting.jpg
+var powerlifting = __webpack_require__(38);
+var powerlifting_default = /*#__PURE__*/__webpack_require__.n(powerlifting);
+
+// EXTERNAL MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/assets/spezialeinheiten.jpg
+var spezialeinheiten = __webpack_require__(39);
+var spezialeinheiten_default = /*#__PURE__*/__webpack_require__.n(spezialeinheiten);
+
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/showcaseComp/ShowcaseComp.js
+
+ // comps
+
+ // logos
+
+
+
+
+
+var ShowcaseComp_ShowcaseComp = function ShowcaseComp() {
+  var width = "410rem";
+  var height = "410rem";
+  return /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Container"], {
+    style: {
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Row"], null, /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Col"], null, /*#__PURE__*/external_react_default.a.createElement(components_caseCard_CaseCard, {
+    src: bodybuilding_default.a,
+    width: width,
+    height: height,
+    alt: "alt",
+    title: "Bodybuilding",
+    href: "/bodybuilding"
+  })), /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Col"], null, /*#__PURE__*/external_react_default.a.createElement(components_caseCard_CaseCard, {
+    src: powerlifting_default.a,
+    width: width,
+    height: height,
+    alt: "alt",
+    title: "Powerlifting",
+    href: "/online-coaching"
+  })), /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Col"], null, /*#__PURE__*/external_react_default.a.createElement(components_caseCard_CaseCard, {
+    src: spezialeinheiten_default.a,
+    width: width,
+    height: height,
+    alt: "alt",
+    title: "Spezialeinheiten",
+    href: "/specialforce"
+  }))));
+};
+
+/* harmony default export */ var showcaseComp_ShowcaseComp = (ShowcaseComp_ShowcaseComp);
 // EXTERNAL MODULE: external "react-spring"
-var external_react_spring_ = __webpack_require__(43);
+var external_react_spring_ = __webpack_require__(62);
 
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/assets/plan.jpg
-var plan = __webpack_require__(9);
-var plan_default = /*#__PURE__*/__webpack_require__.n(plan);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/pages/index.js
-
-
-
-
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/pages/index.js
 
 
 
@@ -1578,29 +1548,11 @@ var plan_default = /*#__PURE__*/__webpack_require__.n(plan);
     style: {
       textAlign: "center"
     }
-  }, /*#__PURE__*/external_react_default.a.createElement(external_react_spring_["animated"].div, null), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Website in Arbeit..."), /*#__PURE__*/external_react_default.a.createElement(external_react_bootstrap_["Container"], null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, null, /*#__PURE__*/external_react_default.a.createElement(src_components_ShowcaseComp, {
-    src: plan_default.a,
-    width: width,
-    height: height,
-    alt: "alt",
-    title: "Coaching"
-  })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, null, /*#__PURE__*/external_react_default.a.createElement(src_components_ShowcaseComp, {
-    src: plan_default.a,
-    width: width,
-    height: height,
-    alt: "alt",
-    title: "Coaching"
-  })), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, null, /*#__PURE__*/external_react_default.a.createElement(src_components_ShowcaseComp, {
-    src: plan_default.a,
-    width: width,
-    height: height,
-    alt: "alt",
-    title: "Coaching"
-  })))));
+  }, /*#__PURE__*/external_react_default.a.createElement(showcaseComp_ShowcaseComp, null), /*#__PURE__*/external_react_default.a.createElement("h1", null, "Website in Arbeit..."));
 });
 
 /***/ }),
-/* 40 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1612,30 +1564,25 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-bootstrap/Container"
-var Container_ = __webpack_require__(13);
-var Container_default = /*#__PURE__*/__webpack_require__.n(Container_);
+var Container_ = __webpack_require__(17);
 
 // EXTERNAL MODULE: external "react-bootstrap/Row"
-var Row_ = __webpack_require__(14);
-var Row_default = /*#__PURE__*/__webpack_require__.n(Row_);
+var Row_ = __webpack_require__(63);
 
 // EXTERNAL MODULE: external "react-bootstrap/Col"
-var Col_ = __webpack_require__(6);
-var Col_default = /*#__PURE__*/__webpack_require__.n(Col_);
+var Col_ = __webpack_require__(64);
 
 // EXTERNAL MODULE: external "react-bootstrap/Button"
-var Button_ = __webpack_require__(23);
-var Button_default = /*#__PURE__*/__webpack_require__.n(Button_);
+var Button_ = __webpack_require__(65);
 
 // EXTERNAL MODULE: external "react-bootstrap/Card"
 var Card_ = __webpack_require__(1);
-var Card_default = /*#__PURE__*/__webpack_require__.n(Card_);
 
 // EXTERNAL MODULE: external "react-bootstrap/Figure"
-var Figure_ = __webpack_require__(17);
+var Figure_ = __webpack_require__(12);
 var Figure_default = /*#__PURE__*/__webpack_require__.n(Figure_);
 
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/components/FigureComp.js
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/components/FigureComp.js
 
 
 
@@ -1649,17 +1596,7 @@ var FigureComp_FigureComp = function FigureComp(props) {
 };
 
 /* harmony default export */ var components_FigureComp = (FigureComp_FigureComp);
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/assets/plan.jpg
-var plan = __webpack_require__(9);
-var plan_default = /*#__PURE__*/__webpack_require__.n(plan);
-
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/assets/coaching.jpg
-var coaching = __webpack_require__(44);
-var coaching_default = /*#__PURE__*/__webpack_require__.n(coaching);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-coaching/src/pages/online-coaching.js
-
-
+// CONCATENATED MODULE: E:/Users/ihack/Dokumente/source/megalodon-coaching/src/pages/online-coaching.js
 
 
 
@@ -1670,37 +1607,11 @@ var coaching_default = /*#__PURE__*/__webpack_require__.n(coaching);
 /* harmony default export */ var online_coaching = __webpack_exports__["default"] = (function () {
   var width = 350;
   var height = 150;
-  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Dienstleistungen"), /*#__PURE__*/external_react_default.a.createElement(Container_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Row_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Col_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Card_default.a, {
-    style: {
-      width: "19rem"
-    }
-  }, /*#__PURE__*/external_react_default.a.createElement(components_FigureComp, {
-    width: width,
-    height: height,
-    alt: "Hallo",
-    src: plan_default.a,
-    text: "Du erhältst ein auf deine Ziele und Bedürfnisse individualisiertes Trainingsprogramm"
-  }), /*#__PURE__*/external_react_default.a.createElement(Button_default.a, {
-    variant: "primary",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message"
-  }, "Anfragen"))), /*#__PURE__*/external_react_default.a.createElement(Col_default.a, null, /*#__PURE__*/external_react_default.a.createElement(Card_default.a, {
-    style: {
-      width: "25rem"
-    }
-  }, /*#__PURE__*/external_react_default.a.createElement(components_FigureComp, {
-    width: 555,
-    height: height,
-    alt: "Hallo",
-    src: coaching_default.a,
-    text: "Online Coaching inkludiert ein wöchentliches Check-In, unlimitierte Textkommunikation via Messenger und Technikanalyse deiner Übungsausführung per Video oder Text."
-  }), /*#__PURE__*/external_react_default.a.createElement(Button_default.a, {
-    variant: "primary",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Online Coaching&body = Message"
-  }, "Anfragen"))))));
+  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement("h1", null, "Dienstleistungen"));
 });
 
 /***/ }),
-/* 41 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1713,9 +1624,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(5);
+var _reactStatic = __webpack_require__(6);
 
-var _router = __webpack_require__(11);
+var _router = __webpack_require__(10);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -1830,49 +1741,55 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 42 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 43 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-spring");
-
-/***/ }),
-/* 44 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/coaching.5c04d62d.jpg";
+module.exports = __webpack_require__.p + "static/bodybuilding.dbde5813.jpg";
 
 /***/ }),
-/* 45 */
+/* 38 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/powerlifting.f45e1de0.jpg";
+
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/spezialeinheiten.8bc64cbe.jpg";
+
+/***/ }),
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/urkunde.987ef503.jpg";
 
 /***/ }),
-/* 46 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(47);
-__webpack_require__(49);
-module.exports = __webpack_require__(55);
+__webpack_require__(42);
+__webpack_require__(44);
+module.exports = __webpack_require__(51);
 
 
 /***/ }),
-/* 47 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(48)["default"];
+var plugins = __webpack_require__(43)["default"];
 
-var _require = __webpack_require__(24),
+var _require = __webpack_require__(20),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -1880,12 +1797,12 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 48 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(41);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -1911,17 +1828,17 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 49 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(24),
+var _require = __webpack_require__(20),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(50),
+var _require2 = __webpack_require__(45),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -1930,7 +1847,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 50 */
+/* 45 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1978,7 +1895,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 26))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -1986,7 +1903,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(32);
+    return /*require.resolve*/(26);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404";
@@ -1996,7 +1913,7 @@ t_0.template = '__react_static_root__/src/pages/404.js';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/about.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/about */).then(__webpack_require__.bind(null, 33))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/about */).then(__webpack_require__.bind(null, 27))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2004,7 +1921,7 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/about.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(33);
+    return /*require.resolve*/(27);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/about";
@@ -2014,7 +1931,7 @@ t_1.template = '__react_static_root__/src/pages/about.js';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/blog.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/blog */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/blog */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2022,7 +1939,7 @@ var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/blog.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(34);
+    return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/blog";
@@ -2032,7 +1949,7 @@ t_2.template = '__react_static_root__/src/pages/blog.js';
 var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/contact */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/contact */).then(__webpack_require__.bind(null, 29))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2040,7 +1957,7 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(35);
+    return /*require.resolve*/(29);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/contact";
@@ -2050,7 +1967,7 @@ t_3.template = '__react_static_root__/src/pages/contact.js';
 var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/faq.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/faq */).then(__webpack_require__.bind(null, 36))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/faq */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2058,7 +1975,7 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/faq.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(36);
+    return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/faq";
@@ -2068,7 +1985,7 @@ t_4.template = '__react_static_root__/src/pages/faq.js';
 var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 39))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 33))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2076,7 +1993,7 @@ var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(39);
+    return /*require.resolve*/(33);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/index";
@@ -2086,7 +2003,7 @@ t_5.template = '__react_static_root__/src/pages/index.js';
 var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/online-coaching.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/online-coaching */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/online-coaching */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2094,7 +2011,7 @@ var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/online-coaching.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(40);
+    return /*require.resolve*/(34);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/online-coaching";
@@ -2104,7 +2021,7 @@ t_6.template = '__react_static_root__/src/pages/online-coaching.js';
 var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/qualifications.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/qualifications */).then(__webpack_require__.bind(null, 37))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/qualifications */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2112,7 +2029,7 @@ var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/qualifications.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(37);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/qualifications";
@@ -2122,7 +2039,7 @@ t_7.template = '__react_static_root__/src/pages/qualifications.js';
 var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/containers/Post",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/containers/Post */).then(__webpack_require__.bind(null, 38))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/containers/Post */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2130,7 +2047,7 @@ var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/containers/Post');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(38);
+    return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/containers/Post";
@@ -2154,7 +2071,7 @@ var notFoundTemplate = "__react_static_root__/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 51 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2183,7 +2100,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 52 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2210,7 +2127,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(12);
+var _utils = __webpack_require__(15);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -2394,13 +2311,44 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 53 */
+/* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	".": 8,
+	"./": 8,
+	"./index": 8,
+	"./index.js": 8
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 48;
+
+/***/ }),
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(19);
+var _typeof = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2428,11 +2376,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(27);
+var _propTypes = __webpack_require__(21);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _context = __webpack_require__(28);
+var _context = __webpack_require__(22);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -2504,7 +2452,7 @@ ReportChunks.propTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 54 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2515,7 +2463,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(29);
+var _hoistNonReactStatics = __webpack_require__(23);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -2571,15 +2519,15 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 55 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(30);
+var _interopRequireDefault = __webpack_require__(24);
 
-var _interopRequireWildcard = __webpack_require__(31);
+var _interopRequireWildcard = __webpack_require__(25);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2588,9 +2536,9 @@ exports["default"] = void 0;
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(56);
+var _useStaticInfo = __webpack_require__(52);
 
-var _Suspense = _interopRequireDefault(__webpack_require__(57));
+var _Suspense = _interopRequireDefault(__webpack_require__(53));
 /* eslint-disable import/no-dynamic-require */
 // Override the suspense module to be our own
 // This is expected to break when using preact
@@ -2601,7 +2549,7 @@ var _Suspense = _interopRequireDefault(__webpack_require__(57));
 React.Suspense = _Suspense["default"];
 React["default"].Suspense = _Suspense["default"];
 
-var App = __webpack_require__(60)["default"];
+var App = __webpack_require__(56)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -2614,30 +2562,30 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 56 */
+/* 52 */
 /***/ (function(module, exports) {
 
-module.exports = require("/Users/marcelhacker/Documents/source/megalodon-coaching/node_modules/react-static/lib/browser/hooks/useStaticInfo");
+module.exports = require("E:\\Users\\ihack\\Dokumente\\source\\megalodon-coaching\\node_modules\\react-static\\lib\\browser\\hooks\\useStaticInfo");
 
 /***/ }),
-/* 57 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(31);
+var _interopRequireWildcard = __webpack_require__(25);
 
-var _interopRequireDefault = __webpack_require__(30);
+var _interopRequireDefault = __webpack_require__(24);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(58));
+var _extends2 = _interopRequireDefault(__webpack_require__(54));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(59));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(55));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
@@ -2658,30 +2606,30 @@ var _default = Suspense;
 exports["default"] = _default;
 
 /***/ }),
-/* 58 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 59 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
 
 /***/ }),
-/* 60 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(21);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(18);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(42);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(36);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(18);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
 
 
  // Your top level component
@@ -2707,10 +2655,10 @@ if (typeof document !== "undefined") {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(61)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(57)(module)))
 
 /***/ }),
-/* 61 */
+/* 57 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -2740,40 +2688,64 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 62 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)(false);
+exports = module.exports = __webpack_require__(16)(false);
 // Module
-exports.push([module.i, ".footer {\n  background-color: #1a1d20;\n  bottom: 0px;\n  position: sticky;\n  width: 100%;\n  height: 36%;\n  size: 1%;\n}\n\nfooter {\n  background-color: #1a1d20;\n  bottom: 0px;\n  position: sticky;\n  width: 100%;\n  height: 36%;\n  size: 1%;\n}\n\na {\n  color: #6c757d;\n}\na:hover {\n  color: #fec503;\n  text-decoration: none;\n}\n\n::-moz-selection {\n  background: #fec503;\n  text-shadow: none;\n}\n\n::selection {\n  background: #fec503;\n  text-shadow: none;\n}\n\n.footer-column:not(:first-child) {\n  @media (min-width: 768px) {\n    padding-top: 0rem;\n  }\n}\n\n.footer-column {\n  text-align: center;\n  border: black solid 1px;\n}\n\nul {\n  padding-top: 0.1rem;\n  display: inline-block;\n  @media (min-width: 768px) {\n    text-align: left;\n  }\n}\n.nav-item {\n  padding: 0.1rem 0;\n}\n.nav-link {\n  padding: 0.1rem 0;\n}\nspan.nav-link {\n  color: black;\n}\nspan.footer-title {\n  font-size: 14px;\n  font-weight: 700;\n  color: #fff;\n  text-transform: uppercase;\n}\n.fas {\n  margin-right: 0.5rem;\n}\n\nul.social-buttons {\n  margin-bottom: 0.5rem;\n}\n\nul.social-buttons li a:active,\nul.social-buttons li a:focus,\nul.social-buttons li a:hover {\n  background-color: #fec503;\n}\n\nul.social-buttons li a {\n  font-size: 20px;\n  line-height: 40px;\n  display: block;\n  width: 40px;\n  height: 40px;\n  transition: all 0.3s;\n  color: #fff;\n  border-radius: 100%;\n  outline: 0;\n  background-color: grey;\n}\n\nfooter .quick-links {\n  font-size: 90%;\n  line-height: 40px;\n  margin-bottom: 0;\n  text-transform: none;\n  font-family: Montserrat, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n}\n\n.copyright {\n  color: white;\n}\n\n.fa-ellipsis-h {\n  color: white;\n  padding: 2rem 0;\n}\n", ""]);
+exports.push([module.i, ".footer {\r\n  background-color: #1a1d20;\r\n  bottom: 0px;\r\n  position: fixed;\r\n  width: 100%;\r\n  height: 29%;\r\n}\r\n\r\na {\r\n  color: #6c757d;\r\n}\r\na:hover {\r\n  color: #fec503;\r\n  text-decoration: none;\r\n}\r\n\r\n::-moz-selection {\r\n  background: #fec503;\r\n  text-shadow: none;\r\n}\r\n\r\n::selection {\r\n  background: #fec503;\r\n  text-shadow: none;\r\n}\r\n\r\n.footer-column:not(:first-child) {\r\n  @media (min-width: 768px) {\r\n    padding-top: 0rem;\r\n  }\r\n}\r\n\r\n.footer-column {\r\n  text-align: center;\r\n  border: black solid 1px;\r\n}\r\n\r\nul {\r\n  padding-top: 0.1rem;\r\n  display: inline-block;\r\n  @media (min-width: 768px) {\r\n    text-align: left;\r\n  }\r\n}\r\n.nav-item {\r\n  padding: 0.1rem 0;\r\n}\r\n.nav-link {\r\n  padding: 0.1rem 0;\r\n}\r\nspan.nav-link {\r\n  color: black;\r\n}\r\nspan.footer-title {\r\n  font-size: 14px;\r\n  font-weight: 700;\r\n  color: #fff;\r\n  text-transform: uppercase;\r\n}\r\n.fas {\r\n  margin-right: 0.5rem;\r\n}\r\n\r\nul.social-buttons {\r\n  margin-bottom: 0.5rem;\r\n}\r\n\r\nul.social-buttons li a:active,\r\nul.social-buttons li a:focus,\r\nul.social-buttons li a:hover {\r\n  background-color: #fec503;\r\n}\r\n\r\nul.social-buttons li a {\r\n  font-size: 20px;\r\n  line-height: 40px;\r\n  display: block;\r\n  width: 40px;\r\n  height: 40px;\r\n  transition: all 0.3s;\r\n  color: #fff;\r\n  border-radius: 100%;\r\n  outline: 0;\r\n  background-color: grey;\r\n}\r\n\r\nfooter .quick-links {\r\n  font-size: 90%;\r\n  line-height: 40px;\r\n  margin-bottom: 0;\r\n  text-transform: none;\r\n  font-family: Montserrat, \"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n}\r\n\r\n.copyright {\r\n  color: white;\r\n}\r\n\r\n.fa-ellipsis-h {\r\n  color: white;\r\n  padding: 2rem 0;\r\n}\r\n", ""]);
 
 
 
 /***/ }),
-/* 63 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)(false);
+exports = module.exports = __webpack_require__(16)(false);
 // Module
 exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold;\n}\n\nimg {\n  max-width: 100%;\n}\n\nnav {\n  width: 100%;\n  background: #108db8;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n  display: inline-block;\n}\n\n.content {\n  padding: 1rem;\n}\n", ""]);
 
 
 
 /***/ }),
-/* 64 */
+/* 60 */
 /***/ (function(module, exports) {
 
 module.exports = require("bootstrap/dist/css/bootstrap.min.css");
 
 /***/ }),
-/* 65 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)(false);
+exports = module.exports = __webpack_require__(16)(false);
 // Module
-exports.push([module.i, "a {\n  color: #6c757d;\n}\na:hover {\n  color: #fec503;\n  text-decoration: none;\n}\n\n.card {\n  position: fixed;\n  top: 10px;\n}\n.bto {\n  position: relative;\n  top: 400px;\n}\n", ""]);
+exports.push([module.i, "a {\r\n  color: #6c757d;\r\n}\r\na:hover {\r\n  color: #fec503;\r\n  text-decoration: none;\r\n}\r\n\r\n.case {\r\n  position: fixed;\r\n  opacity: 60%;\r\n  top: 10px;\r\n  transition: transform 0.3s; /* Animation */\r\n}\r\n.case:hover {\r\n  transform: scale(1.05);\r\n  opacity: 100%;\r\n  border-color: greenyellow;\r\n}\r\n\r\n.bto {\r\n  position: relative;\r\n  color: black;\r\n  top: 400px;\r\n}\r\n", ""]);
 
 
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-spring");
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Row");
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Col");
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-bootstrap/Button");
 
 /***/ })
 /******/ ]);

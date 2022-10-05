@@ -5,8 +5,8 @@ import {Link, Router} from "components/Router";
 import Dynamic from "containers/Dynamic";
 
 // comps
-import NavbarComp from "../src/components/NavbarComp";
-import FooterComp from "./components/FooterComp";
+import NavbarComp from "./components/shared/NavbarComp";
+import FooterComp from "./components/shared/FooterComp";
 
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";

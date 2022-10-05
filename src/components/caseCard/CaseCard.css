@@ -1,0 +1,25 @@
+a {
+  color: #6c757d;
+}
+a:hover {
+  color: #fec503;
+  text-decoration: none;
+}
+
+.case {
+  position: fixed;
+  opacity: 60%;
+  top: 10px;
+  transition: transform 0.3s; /* Animation */
+}
+.case:hover {
+  transform: scale(1.05);
+  opacity: 100%;
+  border-color: greenyellow;
+}
+
+.bto {
+  position: relative;
+  color: black;
+  top: 400px;
+}
