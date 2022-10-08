@@ -16,29 +16,29 @@
   "entry": "index.js",
   "plugins": [
     [
-      "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      "/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static-plugin-source-filesystem/node.api.js",
       {
-        "location": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/src/pages"
+        "location": "/Users/marcelhacker/Documents/source/megalodon-material/src/pages"
       }
     ],
-    "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/Users/marcelhacker/Documents/source/megalodon-coaching-old"
+    "/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/marcelhacker/Documents/source/megalodon-material"
   ],
   "paths": {
-    "ROOT": "/Users/marcelhacker/Documents/source/megalodon-coaching-old",
-    "SRC": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/src",
-    "DIST": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist",
-    "ASSETS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist",
-    "PLUGINS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/plugins",
-    "TEMP": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/tmp",
-    "ARTIFACTS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/artifacts",
-    "PUBLIC": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/public",
-    "NODE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules",
-    "EXCLUDE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules",
-    "PACKAGE": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/package.json",
-    "HTML_TEMPLATE": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist/index.html",
-    "STATIC_DATA": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist/staticData"
+    "ROOT": "/Users/marcelhacker/Documents/source/megalodon-material",
+    "SRC": "/Users/marcelhacker/Documents/source/megalodon-material/src",
+    "DIST": "/Users/marcelhacker/Documents/source/megalodon-material/dist",
+    "ASSETS": "/Users/marcelhacker/Documents/source/megalodon-material/dist",
+    "PLUGINS": "/Users/marcelhacker/Documents/source/megalodon-material/plugins",
+    "TEMP": "/Users/marcelhacker/Documents/source/megalodon-material/tmp",
+    "ARTIFACTS": "/Users/marcelhacker/Documents/source/megalodon-material/artifacts",
+    "PUBLIC": "/Users/marcelhacker/Documents/source/megalodon-material/public",
+    "NODE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-material/node_modules",
+    "EXCLUDE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-material/node_modules",
+    "PACKAGE": "/Users/marcelhacker/Documents/source/megalodon-material/package.json",
+    "HTML_TEMPLATE": "/Users/marcelhacker/Documents/source/megalodon-material/dist/index.html",
+    "STATIC_DATA": "/Users/marcelhacker/Documents/source/megalodon-material/dist/staticData"
   },
   "siteRoot": "/",
   "basePath": "",
