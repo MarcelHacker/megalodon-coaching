@@ -139,6 +139,7 @@ const Navbar = () => {
                 "border-color": "#ffffff",
                 "background-color": "grey",
               }}
+              href={"mailto:megalodoncoaching@gmail.com?subject=Anfrage"}
             >
               Anfrage
             </Button>
