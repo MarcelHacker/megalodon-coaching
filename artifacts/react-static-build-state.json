@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/src/pages"
+      }
+    ],
+    "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/marcelhacker/Documents/source/megalodon-coaching-old"
+  ],
+  "paths": {
+    "ROOT": "/Users/marcelhacker/Documents/source/megalodon-coaching-old",
+    "SRC": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/src",
+    "DIST": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist",
+    "ASSETS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist",
+    "PLUGINS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/plugins",
+    "TEMP": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/tmp",
+    "ARTIFACTS": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/artifacts",
+    "PUBLIC": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/public",
+    "NODE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules",
+    "EXCLUDE_MODULES": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/node_modules",
+    "PACKAGE": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/package.json",
+    "HTML_TEMPLATE": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist/index.html",
+    "STATIC_DATA": "/Users/marcelhacker/Documents/source/megalodon-coaching-old/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}

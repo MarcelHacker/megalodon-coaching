@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "headers": [
+      {
+        "source": "/index.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ],
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}

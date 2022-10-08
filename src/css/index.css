@@ -1,0 +1,30 @@
+/* 
+  index
+*/
+.quote {
+  position: absolute;
+  left: 0px;
+  width: 1903px;
+  height: 20%;
+  color: white;
+  margin-top: 6em;
+  border: 0px;
+  background-color: #4894a2;
+}
+
+.qtext {
+  position: absolute;
+  margin-top: 3em;
+  margin-left: 52em;
+}
+
+.carous {
+  margin-top: 60em;
+  position: sticky;
+  top: 300px;
+  margin-bottom: 30em;
+}
+
+/* 
+  online-coaching
+*/
