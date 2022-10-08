@@ -7,7 +7,7 @@ import { Link, Router } from "components/Router";
 
 // comps
 import Navbar from "./components/shared/Navbar";
-//import Footer from "./components/shared/Footer";
+import Footer from "./components/shared/Footer";
 
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,7 +23,7 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </Root>
   );
 }
