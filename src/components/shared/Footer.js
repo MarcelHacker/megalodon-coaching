@@ -1,9 +1,9 @@
-import React from "react";
-import {YouTube, Instagram, Telegram, Email} from "@material-ui/icons";
+/* import React from "react";
+import { YouTube, Instagram, Telegram, Email } from "@material-ui/icons";
 
-import "./FooterComp.css";
+import "./Footer.css";
 
-const FooterComp = () => {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="row">
@@ -66,7 +66,8 @@ const FooterComp = () => {
                 className="nav-link"
                 href="mailto:megalodoncoaching@gmail.com?subject = Anfrage&body = Message"
               >
-                <Email style={{color: "#fec503"}} /> megalodoncoaching@gmail.com
+                <Email style={{ color: "#fec503" }} />{" "}
+                megalodoncoaching@gmail.com
               </a>
             </li>
             <li className="nav-item">
@@ -85,7 +86,8 @@ const FooterComp = () => {
       <div className="row text-center">
         <div className="col-md-4 box">
           <span className="copyright quick-links">
-            &copy; 2022 Marcel Hacker. <script>document.write({new Date().getFullYear()})</script>
+            &copy; 2022 Marcel Hacker.{" "}
+            <script>document.write({new Date().getFullYear()})</script>
           </span>
         </div>
         <div className="col-md-4 box">
@@ -123,4 +125,5 @@ const FooterComp = () => {
   );
 };
 
-export default FooterComp;
+export default Footer;
+ */

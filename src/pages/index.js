@@ -5,9 +5,5 @@ import ShowcaseComp from "../components/ShowcaseComp";
 //import "../css/index.css";
 
 export default () => {
-  return (
-    <div>
-      <ShowcaseComp />
-    </div>
-  );
+  return <div>{/* <ShowcaseComp /> */}</div>;
 };

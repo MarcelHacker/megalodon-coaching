@@ -6,8 +6,8 @@ import { Link, Router } from "components/Router";
 // animation
 
 // comps
-import NavbarComp from "./components/NavbarComp";
-import FooterComp from "./components/FooterComp";
+import Navbar from "./components/shared/Navbar";
+//import Footer from "./components/shared/Footer";
 
 import "./app.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +15,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <Root>
-      <NavbarComp />
+      <Navbar />
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
           <Router>
@@ -23,7 +23,7 @@ function App() {
           </Router>
         </React.Suspense>
       </div>
-      <FooterComp />
+      {/* <Footer /> */}
     </Root>
   );
 }
