@@ -144,8 +144,12 @@ const Navbar = () => {
             </Button>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
+            <Tooltip title="megalodon_coaching">
+              <IconButton
+                onClick={handleOpenUserMenu}
+                sx={{ p: 0 }}
+                href={"https://www.instagram.com/megalodon_coaching/"}
+              >
                 <InstagramIcon sx={{ color: "#ffffff" }} fontSize="large" />
               </IconButton>
             </Tooltip>
