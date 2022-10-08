@@ -7,13 +7,13 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import LogoIcon from "../../../public/logo.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import PhishingIcon from "@mui/icons-material/Phishing";
 
 const pages = ["Products", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -41,7 +41,7 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <image src={LogoIcon}></image>
+          <PhishingIcon sx={{ color: "#868B8E", fontSize: 40 }} />
           <Typography
             variant="h6"
             noWrap
@@ -57,7 +57,7 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            MEGALODON
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -113,7 +113,7 @@ const Navbar = () => {
               textDecoration: "none",
             }}
           >
-            LOGO
+            MEGALODON COACHING
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
@@ -126,35 +126,29 @@ const Navbar = () => {
               </Button>
             ))}
           </Box>
-
+          <Box
+            sx={{ flexGrow: 0 }}
+            className="mr-1"
+            style={{ "margin-right": "1em" }}
+          >
+            <Button
+              variant="contained"
+              size="medium"
+              sx={{
+                color: "#ffffff",
+                "border-color": "#ffffff",
+                "background-color": "grey",
+              }}
+            >
+              Anfrage
+            </Button>
+          </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <InstagramIcon sx={{ color: "#ffffff" }} fontSize="large" />
               </IconButton>
             </Tooltip>
-            <Menu
-              sx={{ mt: "45px" }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
           </Box>
         </Toolbar>
       </Container>
