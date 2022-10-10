@@ -26,6 +26,7 @@ export default function StickyFooter() {
         py: 3,
         px: 2,
         mt: "auto",
+        ml: "3px",
         backgroundColor: (theme) =>
           theme.palette.mode === "light"
             ? theme.palette.grey[200]
@@ -36,7 +37,8 @@ export default function StickyFooter() {
         <Typography variant="body1">
           <Grid>
             My sticky footer can be found here.
-            <Button link>To xy</Button>
+            <Link href="/privacy">Datenschutz</Link>
+            <Link href="/imprint">Impressum</Link>
           </Grid>
         </Typography>
         <Copyright />
