@@ -1021,18 +1021,20 @@ var Navbar_Navbar = function Navbar() {
       color: "#ffffff",
       "border-color": "#ffffff",
       "background-color": "grey"
-    }
+    },
+    href: "mailto:megalodoncoaching@gmail.com?subject=Anfrage"
   }, "Anfrage")), /*#__PURE__*/external_react_["createElement"](Box_default.a, {
     sx: {
       flexGrow: 0
     }
   }, /*#__PURE__*/external_react_["createElement"](Tooltip_default.a, {
-    title: "Open settings"
+    title: "megalodon_coaching"
   }, /*#__PURE__*/external_react_["createElement"](IconButton_default.a, {
     onClick: handleOpenUserMenu,
     sx: {
       p: 0
-    }
+    },
+    href: "https://www.instagram.com/megalodon_coaching/"
   }, /*#__PURE__*/external_react_["createElement"](Instagram_default.a, {
     sx: {
       color: "#ffffff"

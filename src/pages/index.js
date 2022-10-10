@@ -1,9 +1,10 @@
 import React from "react";
-import ShowcaseComp from "../components/ShowcaseComp";
-
-// css
-//import "../css/index.css";
+import Paper from "../components/Paper.js";
 
 export default () => {
-  return <div>{/* <ShowcaseComp /> */}</div>;
+  return (
+    <div>
+      <Paper />
+    </div>
+  );
 };
