@@ -37,8 +37,12 @@ export default function StickyFooter() {
         <Typography variant="body1">
           <Grid>
             Megalodon Coaching
-            <Link href="/privacy">Datenschutz</Link>
-            <Link href="/imprint">Impressum</Link>
+            <div>
+              <Link href="/privacy">Datenschutz</Link>
+            </div>
+            <div>
+              <Link href="/imprint">Impressum</Link>
+            </div>
           </Grid>
         </Typography>
         <Copyright />
