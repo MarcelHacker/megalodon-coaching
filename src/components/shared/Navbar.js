@@ -10,13 +10,11 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
+/* import AdbIcon from "@mui/icons-material/Adb"; */
 import LogoIcon from "../../../public/logo.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import PhishingIcon from "@mui/icons-material/Phishing";
 
 const pages = ["Products", "Pricing", "Blog"];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -41,7 +39,7 @@ const Navbar = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <PhishingIcon sx={{ color: "#868B8E", fontSize: 40 }} />
+          <img src={LogoIcon} width={"50px"} height={"50px"}></img>
           <Typography
             variant="h6"
             noWrap
@@ -96,7 +94,7 @@ const Navbar = () => {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap

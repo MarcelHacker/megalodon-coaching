@@ -36,7 +36,7 @@ export default function StickyFooter() {
       <Container maxWidth="sm">
         <Typography variant="body1">
           <Grid>
-            My sticky footer can be found here.
+            Megalodon Coaching
             <Link href="/privacy">Datenschutz</Link>
             <Link href="/imprint">Impressum</Link>
           </Grid>
