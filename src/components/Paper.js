@@ -8,8 +8,8 @@ import { styled } from "@mui/material/styles";
 const Item = styled(Paper)(({ theme }) => ({
   textAlign: "center",
   //"background-image": coaching,
-  height: 60,
-  lineHeight: "60px",
+  height: "100em",
+  lineHeight: "100em",
 }));
 
 const PaperImage = () => {
@@ -26,16 +26,11 @@ const PaperImage = () => {
             gridTemplateColumns: { md: "1fr 1fr" },
             gap: 2,
             width: width,
-            height: height,
+            height: "100em",
           }}
         >
-          <Item elevation={3}>
-            <img
-              src={coaching}
-              alt={"Coaching"}
-              width={width}
-              height={height}
-            />
+          <Item elevation={3} height={"100em"}>
+            <img src={coaching} alt={"Coaching"} />
           </Item>
         </Box>
       </Grid>
