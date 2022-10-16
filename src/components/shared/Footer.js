@@ -38,9 +38,7 @@ export default function StickyFooter() {
           <Grid>
             Megalodon Coaching
             <div>
-              <Link href="/privacy">Datenschutz</Link>
-            </div>
-            <div>
+              <Link href="/privacy">Datenschutz</Link> |{" "}
               <Link href="/imprint">Impressum</Link>
             </div>
           </Grid>
