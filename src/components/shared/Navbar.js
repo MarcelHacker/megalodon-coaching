@@ -19,6 +19,7 @@ const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
+    console.log(event);
     setAnchorElNav(event.currentTarget);
   };
   const handleOpenUserMenu = (event) => {
@@ -112,6 +113,7 @@ const Navbar = () => {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
+                href={"/" + page.toLowerCase()}
               >
                 {page}
               </Button>
@@ -125,11 +127,13 @@ const Navbar = () => {
             <Button
               variant="contained"
               size="medium"
+              borderColor="#ffffff"
               sx={{
                 color: "#ffffff",
                 "border-color": "#ffffff",
                 "background-color": "grey",
               }}
+              backgroundColor="grey"
               href={"mailto:megalodoncoaching@gmail.com?subject=Anfrage"}
             >
               Anfrage
