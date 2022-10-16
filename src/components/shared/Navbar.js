@@ -10,15 +10,13 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-/* import AdbIcon from "@mui/icons-material/Adb"; */
 import LogoIcon from "../../../public/logo.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["Preise", "Qualifikationen"];
 
 const Navbar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -29,10 +27,6 @@ const Navbar = () => {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -94,7 +88,6 @@ const Navbar = () => {
               ))}
             </Menu>
           </Box>
-          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap

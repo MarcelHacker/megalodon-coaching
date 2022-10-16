@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 64);
+/******/ 	return __webpack_require__(__webpack_require__.s = 50);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -139,18 +139,12 @@ module.exports = require("react-bootstrap/Card");
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap");
-
-/***/ }),
-/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(module) {
 
-var _typeof = __webpack_require__(19);
+var _typeof = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -189,7 +183,7 @@ var _createClass = function () {
   };
 }();
 
-var _requireUniversalModule = __webpack_require__(70);
+var _requireUniversalModule = __webpack_require__(56);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -204,7 +198,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(72);
+var _reportChunks = __webpack_require__(58);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -218,23 +212,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(28);
+var _propTypes = __webpack_require__(16);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(30);
+var _hoistNonReactStatics = __webpack_require__(24);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _context = __webpack_require__(29);
+var _context = __webpack_require__(23);
 
 var _context2 = _interopRequireDefault(_context);
 
-var _utils = __webpack_require__(20);
+var _utils = __webpack_require__(15);
 
-var _helpers = __webpack_require__(73);
+var _helpers = __webpack_require__(59);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -618,94 +612,34 @@ function universal(asyncModule) {
     return UniversalComponent;
   }(_react2["default"].Component), _class.contextType = _context2["default"], _temp;
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(69)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(55)(module)))
 
 /***/ }),
-/* 6 */
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Box");
 
 /***/ }),
-/* 7 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/ListGroup");
-
-/***/ }),
-/* 8 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(21);
-/* harmony import */ var _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7);
-/* harmony import */ var react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_bootstrap_Badge__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(60);
-/* harmony import */ var react_bootstrap_Badge__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Badge__WEBPACK_IMPORTED_MODULE_4__);
-
-
-
-
- //import "./ListComp.css";
-
-function ListComp(_ref) {
-  var href = _ref.href,
-      src = _ref.src,
-      height = _ref.height,
-      width = _ref.width,
-      alt = _ref.alt,
-      title = _ref.title,
-      secondLine = _ref.secondLine,
-      thirdLine = _ref.thirdLine,
-      fourthLine = _ref.fourthLine,
-      fifthLine = _ref.fifthLine,
-      _ref$badge = _ref.badge,
-      badge = _ref$badge === void 0 ? false : _ref$badge,
-      _ref$badgeColor = _ref.badgeColor,
-      badgeColor = _ref$badgeColor === void 0 ? "success" : _ref$badgeColor,
-      _ref$badgeText = _ref.badgeText,
-      badgeText = _ref$badgeText === void 0 ? "Beliebt" : _ref$badgeText,
-      props = _babel_runtime_helpers_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0___default()(_ref, ["href", "src", "height", "width", "alt", "title", "secondLine", "thirdLine", "fourthLine", "fifthLine", "badge", "badgeColor", "badgeText"]);
-
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    className: "listing"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    className: "photo",
-    src: src,
-    width: width,
-    height: height
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "texture"
-  }, title, " ", badge && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_Badge__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    bg: badgeColor
-  }, badgeText))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, secondLine), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, thirdLine), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, fourthLine), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, fifthLine), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap_ListGroup__WEBPACK_IMPORTED_MODULE_3___default.a.Item, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
-    className: "btn",
-    variant: "primary",
-    href: href
-  }, "Anfragen")));
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (ListComp);
-
-/***/ }),
-/* 9 */
+/* 6 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Typography");
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports, __webpack_require__) {
+/* 7 */
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "static/all-in-coaching.d13109b5.jpg";
+module.exports = require("react-bootstrap");
 
 /***/ }),
-/* 11 */
+/* 8 */
+/***/ (function(module, exports) {
+
+module.exports = require("@mui/material/Link");
+
+/***/ }),
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -715,11 +649,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _utils = __webpack_require__(20);
+var _utils = __webpack_require__(15);
 
 var requireById = function requireById(id) {
   if (!(0, _utils.isWebpack)() && typeof id === 'string') {
-    return __webpack_require__(71)("" + id);
+    return __webpack_require__(57)("" + id);
   }
 
   return __webpack_require__('' + id);
@@ -728,43 +662,25 @@ var requireById = function requireById(id) {
 exports["default"] = requireById;
 
 /***/ }),
-/* 12 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("@reach/router");
 
 /***/ }),
-/* 13 */
+/* 11 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-static");
 
 /***/ }),
-/* 14 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Container");
 
 /***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/trainingsplan.b718641d.jpg";
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports) {
-
-module.exports = require("@mui/material/Link");
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Col");
-
-/***/ }),
-/* 18 */
+/* 13 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -774,67 +690,67 @@ var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
 // EXTERNAL MODULE: external "react-static"
-var external_react_static_ = __webpack_require__(13);
+var external_react_static_ = __webpack_require__(11);
 
 // EXTERNAL MODULE: external "@reach/router"
-var router_ = __webpack_require__(12);
+var router_ = __webpack_require__(10);
 
 // CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/components/Router.js
 
 // EXTERNAL MODULE: external "@babel/runtime/helpers/slicedToArray"
-var slicedToArray_ = __webpack_require__(23);
+var slicedToArray_ = __webpack_require__(18);
 var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_);
 
 // EXTERNAL MODULE: external "@mui/material/AppBar"
-var AppBar_ = __webpack_require__(47);
+var AppBar_ = __webpack_require__(38);
 var AppBar_default = /*#__PURE__*/__webpack_require__.n(AppBar_);
 
 // EXTERNAL MODULE: external "@mui/material/Box"
-var Box_ = __webpack_require__(6);
+var Box_ = __webpack_require__(5);
 var Box_default = /*#__PURE__*/__webpack_require__.n(Box_);
 
 // EXTERNAL MODULE: external "@mui/material/Toolbar"
-var Toolbar_ = __webpack_require__(48);
+var Toolbar_ = __webpack_require__(39);
 var Toolbar_default = /*#__PURE__*/__webpack_require__.n(Toolbar_);
 
 // EXTERNAL MODULE: external "@mui/material/IconButton"
-var IconButton_ = __webpack_require__(24);
+var IconButton_ = __webpack_require__(19);
 var IconButton_default = /*#__PURE__*/__webpack_require__.n(IconButton_);
 
 // EXTERNAL MODULE: external "@mui/material/Typography"
-var Typography_ = __webpack_require__(9);
+var Typography_ = __webpack_require__(6);
 var Typography_default = /*#__PURE__*/__webpack_require__.n(Typography_);
 
 // EXTERNAL MODULE: external "@mui/material/Menu"
-var Menu_ = __webpack_require__(49);
+var Menu_ = __webpack_require__(40);
 var Menu_default = /*#__PURE__*/__webpack_require__.n(Menu_);
 
 // EXTERNAL MODULE: external "@mui/icons-material/Menu"
-var icons_material_Menu_ = __webpack_require__(50);
+var icons_material_Menu_ = __webpack_require__(41);
 var icons_material_Menu_default = /*#__PURE__*/__webpack_require__.n(icons_material_Menu_);
 
 // EXTERNAL MODULE: external "@mui/material/Container"
-var Container_ = __webpack_require__(14);
+var Container_ = __webpack_require__(12);
 var Container_default = /*#__PURE__*/__webpack_require__.n(Container_);
 
 // EXTERNAL MODULE: external "@mui/material/Button"
-var Button_ = __webpack_require__(25);
+var Button_ = __webpack_require__(20);
 var Button_default = /*#__PURE__*/__webpack_require__.n(Button_);
 
 // EXTERNAL MODULE: external "@mui/material/Tooltip"
-var Tooltip_ = __webpack_require__(51);
+var Tooltip_ = __webpack_require__(42);
 var Tooltip_default = /*#__PURE__*/__webpack_require__.n(Tooltip_);
 
 // EXTERNAL MODULE: external "@mui/material/MenuItem"
-var MenuItem_ = __webpack_require__(52);
+var MenuItem_ = __webpack_require__(43);
 var MenuItem_default = /*#__PURE__*/__webpack_require__.n(MenuItem_);
 
 // EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-material/public/logo.png
-var logo = __webpack_require__(53);
+var logo = __webpack_require__(44);
 var logo_default = /*#__PURE__*/__webpack_require__.n(logo);
 
 // EXTERNAL MODULE: external "@mui/icons-material/Instagram"
-var Instagram_ = __webpack_require__(54);
+var Instagram_ = __webpack_require__(45);
 var Instagram_default = /*#__PURE__*/__webpack_require__.n(Instagram_);
 
 // CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/components/shared/Navbar.js
@@ -1028,11 +944,11 @@ var Navbar_Navbar = function Navbar() {
 
 /* harmony default export */ var shared_Navbar = (Navbar_Navbar);
 // EXTERNAL MODULE: external "@mui/material/Link"
-var Link_ = __webpack_require__(16);
+var Link_ = __webpack_require__(8);
 var Link_default = /*#__PURE__*/__webpack_require__.n(Link_);
 
 // EXTERNAL MODULE: external "@mui/material"
-var material_ = __webpack_require__(55);
+var material_ = __webpack_require__(46);
 
 // CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/components/shared/Footer.js
 
@@ -1068,17 +984,17 @@ function StickyFooter() {
     maxWidth: "sm"
   }, /*#__PURE__*/external_react_["createElement"](Typography_default.a, {
     variant: "body1"
-  }, /*#__PURE__*/external_react_["createElement"](material_["Grid"], null, "Megalodon Coaching", /*#__PURE__*/external_react_["createElement"](Link_default.a, {
+  }, /*#__PURE__*/external_react_["createElement"](material_["Grid"], null, "Megalodon Coaching", /*#__PURE__*/external_react_["createElement"]("div", null, /*#__PURE__*/external_react_["createElement"](Link_default.a, {
     href: "/privacy"
-  }, "Datenschutz"), /*#__PURE__*/external_react_["createElement"](Link_default.a, {
+  }, "Datenschutz")), /*#__PURE__*/external_react_["createElement"]("div", null, /*#__PURE__*/external_react_["createElement"](Link_default.a, {
     href: "/imprint"
-  }, "Impressum"))), /*#__PURE__*/external_react_["createElement"](Copyright, null)));
+  }, "Impressum")))), /*#__PURE__*/external_react_["createElement"](Copyright, null)));
 }
 // EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/app.css
-var app = __webpack_require__(80);
+var app = __webpack_require__(67);
 
 // EXTERNAL MODULE: external "bootstrap/dist/css/bootstrap.min.css"
-var bootstrap_min_css_ = __webpack_require__(81);
+var bootstrap_min_css_ = __webpack_require__(68);
 
 // CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/App.js
 
@@ -1105,19 +1021,19 @@ function App() {
 /* harmony default export */ var src_App = __webpack_exports__["a"] = (App);
 
 /***/ }),
-/* 19 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/typeof");
 
 /***/ }),
-/* 20 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof2 = __webpack_require__(19);
+var _typeof2 = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -1148,7 +1064,7 @@ var _react = __webpack_require__(0);
 
 var React = _interopRequireWildcard(_react);
 
-var _requireById = __webpack_require__(11);
+var _requireById = __webpack_require__(9);
 
 var _requireById2 = _interopRequireDefault(_requireById);
 
@@ -1277,55 +1193,49 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 };
 
 /***/ }),
-/* 21 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-dom");
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/helpers/slicedToArray");
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports) {
-
-module.exports = require("@mui/material/IconButton");
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports) {
-
-module.exports = require("@mui/material/Button");
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports) {
-
-module.exports = require("@mui/material/Grid");
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports) {
-
-module.exports = require("/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static/lib/browser");
-
-/***/ }),
-/* 28 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 29 */
+/* 17 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/slicedToArray");
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports) {
+
+module.exports = require("@mui/material/IconButton");
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+module.exports = require("@mui/material/Button");
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
+module.exports = require("@mui/material/Grid");
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports) {
+
+module.exports = require("/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static/lib/browser");
+
+/***/ }),
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1352,25 +1262,25 @@ var ReportContext = _react2["default"].createContext({
 exports["default"] = ReportContext;
 
 /***/ }),
-/* 30 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 31 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireDefault");
 
 /***/ }),
-/* 32 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/interopRequireWildcard");
 
 /***/ }),
-/* 33 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1461,7 +1371,7 @@ function toComment(sourceMap) {
 }
 
 /***/ }),
-/* 34 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1476,7 +1386,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 35 */
+/* 29 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1489,7 +1399,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 36 */
+/* 30 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1498,39 +1408,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Bodybuilding"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    style: {
-      width: "25rem",
-      height: "15rem"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Body, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default.a.Title, {
-    className: "pb-2"
-  }, "Wenn du Interesse hast, mit mir zu arbeiten, kontaktiere mich unter folgender Mail:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
-    variant: "success",
-    size: "lg",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message"
-  }, "megalodoncoaching@gmail.com"))));
-});
-
-/***/ }),
-/* 37 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
-/* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(82);
+/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(69);
 /* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_index_css__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -1554,7 +1434,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 38 */
+/* 31 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1563,7 +1443,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1584,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 39 */
+/* 32 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1593,7 +1473,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1603,87 +1483,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 40 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(58);
-/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(59);
-/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(17);
-/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_ListComp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8);
-/* harmony import */ var _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(10);
-/* harmony import */ var _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(15);
-/* harmony import */ var _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _public_analyse_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(61);
-/* harmony import */ var _public_analyse_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_public_analyse_jpg__WEBPACK_IMPORTED_MODULE_7__);
-
-
-
- // comp
-
- // logos
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var width = 390;
-  var height = 190;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Dienstleistungen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1___default.a, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2___default.a, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default.a, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
-    src: _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
-    width: width,
-    height: height,
-    alt: "Trainingsplan",
-    title: "Trainingsplan",
-    secondLine: "Zielorientiert",
-    thirdLine: "Zyklisiert",
-    fourthLine: "Effizient",
-    fifthLine: "Inkludiert einen vierw\xF6chentlichen Plan per Google Sheets.",
-    badge: true,
-    badgeColor: "danger",
-    badgeText: "-20%",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default.a, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
-    src: _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    width: width,
-    height: height,
-    alt: "All-In Coaching",
-    title: "All-In Coaching",
-    secondLine: "Individualisierter Trainingsplan",
-    thirdLine: "Technikanalysen",
-    fourthLine: "Zielorientiert und Effektiv",
-    fifthLine: "Inkludiert ein w\xF6chentliches Check-In, unlimitierte Textkommunikation via\n                Messenger und Technikanalyse deiner \xDCbungsausf\xFChrung per Video oder Text.",
-    badge: true // show popular badge
-    ,
-    href: "mailto:megalodoncoaching@gmail.com?subject = All-In-Coaching&body = Message"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3___default.a, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], {
-    src: _public_analyse_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
-    width: width,
-    height: height,
-    alt: "Hallo",
-    title: "Technikanalyse",
-    secondLine: "Verbesserung deiner Technik",
-    thirdLine: "Erkennen von Schwächen",
-    fourthLine: "Effizient",
-    fifthLine: "Inkludiert eine Technikanalyse deiner \xDCbungsausf\xFChrung per Video.",
-    badge: false,
-    badgeColor: "danger",
-    badgeText: "-20%",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Technikanalyse&body = Message"
-  }))))));
-});
-
-/***/ }),
-/* 41 */
+/* 33 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1692,7 +1492,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4);
+/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1702,7 +1502,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 42 */
+/* 34 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1711,7 +1511,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3);
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _public_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(62);
+/* harmony import */ var _public_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(49);
 /* harmony import */ var _public_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_public_urkunde_jpg__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -1730,80 +1530,7 @@ __webpack_require__.r(__webpack_exports__);
 });
 
 /***/ }),
-/* 43 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4);
-/* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_ListComp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8);
-/* harmony import */ var _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(10);
-/* harmony import */ var _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(15);
-/* harmony import */ var _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _public_ernaehrung_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(63);
-/* harmony import */ var _public_ernaehrung_jpg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_public_ernaehrung_jpg__WEBPACK_IMPORTED_MODULE_5__);
-
- // comp
-
- // logos
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  var width = 390;
-  var height = 190;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Spezialeinheiten"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "list"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    src: _public_trainingsplan_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
-    width: width,
-    height: height,
-    alt: "Trainingsplan",
-    title: "Trainingsplan",
-    secondLine: "Zielorientiert",
-    thirdLine: "Zyklisiert",
-    fourthLine: "Effizient",
-    fifthLine: "Inkludiert einen vierw\xF6chentlichen Plan per Google Sheets.",
-    badge: false,
-    href: "mailto:megalodoncoaching@gmail.com?subject = Trainingsplan&body = Message"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    src: _public_all_in_coaching_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
-    width: width,
-    height: height,
-    alt: "All-In Coaching",
-    title: "All-In Coaching",
-    secondLine: "Individualisierter Trainingsplan",
-    thirdLine: "Technikanalysen",
-    fourthLine: "Zielorientiert und Effektiv",
-    fifthLine: "Inkludiert ein w\xF6chentliches Check-In, unlimitierte Textkommunikation via\n                Messenger und Technikanalyse deiner \xDCbungsausf\xFChrung per Video oder Text.",
-    badge: true,
-    badgeColor: "danger",
-    badgeText: "-20%",
-    href: "mailto:megalodoncoaching@gmail.com?subject = All-In-Coaching&body = Message"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ListComp__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], {
-    src: _public_ernaehrung_jpg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    width: width,
-    height: height,
-    alt: "Hallo",
-    title: "Ernährungsplan",
-    secondLine: "Verbesserung deiner Technik",
-    thirdLine: "Erkennen von Schwächen",
-    fourthLine: "Effizient",
-    fifthLine: "Inkludiert eine Technikanalyse deiner \xDCbungsausf\xFChrung per Video.",
-    badge: true,
-    badgeColor: "danger",
-    badgeText: "-20%",
-    href: "mailto:megalodoncoaching@gmail.com?subject = Technikanalyse&body = Message"
-  }))))));
-});
-
-/***/ }),
-/* 44 */
+/* 35 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1814,82 +1541,121 @@ __webpack_require__.r(__webpack_exports__);
 var external_react_ = __webpack_require__(0);
 var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
 
-// EXTERNAL MODULE: external "@mui/material/Grid"
-var Grid_ = __webpack_require__(26);
-var Grid_default = /*#__PURE__*/__webpack_require__.n(Grid_);
+// EXTERNAL MODULE: external "prop-types"
+var external_prop_types_ = __webpack_require__(16);
 
 // EXTERNAL MODULE: external "@mui/material/Paper"
-var Paper_ = __webpack_require__(56);
+var Paper_ = __webpack_require__(47);
 var Paper_default = /*#__PURE__*/__webpack_require__.n(Paper_);
 
+// EXTERNAL MODULE: external "@mui/material/Typography"
+var Typography_ = __webpack_require__(6);
+var Typography_default = /*#__PURE__*/__webpack_require__.n(Typography_);
+
+// EXTERNAL MODULE: external "@mui/material/Grid"
+var Grid_ = __webpack_require__(21);
+var Grid_default = /*#__PURE__*/__webpack_require__.n(Grid_);
+
+// EXTERNAL MODULE: external "@mui/material/Link"
+var Link_ = __webpack_require__(8);
+var Link_default = /*#__PURE__*/__webpack_require__.n(Link_);
+
 // EXTERNAL MODULE: external "@mui/material/Box"
-var Box_ = __webpack_require__(6);
+var Box_ = __webpack_require__(5);
 var Box_default = /*#__PURE__*/__webpack_require__.n(Box_);
 
-// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-material/public/all-in-coaching.jpg
-var all_in_coaching = __webpack_require__(10);
-var all_in_coaching_default = /*#__PURE__*/__webpack_require__.n(all_in_coaching);
-
-// EXTERNAL MODULE: external "@mui/material/styles"
-var styles_ = __webpack_require__(57);
-
-// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/components/Paper.js
+// CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/components/MainPost.js
 
 
 
 
 
 
-var Item = Object(styles_["styled"])(Paper_default.a)(function (_ref) {
-  var theme = _ref.theme;
-  return {
-    textAlign: "center",
-    //"background-image": coaching,
-    height: "100em",
-    lineHeight: "100em"
-  };
-});
 
-var Paper_PaperImage = function PaperImage() {
-  var height = "100em";
-  var width = "180em";
-  return /*#__PURE__*/external_react_["createElement"](Grid_default.a, {
-    container: true,
-    spacing: 2
+
+function MainPost(props) {
+  var post = props.post;
+  return /*#__PURE__*/external_react_["createElement"](Paper_default.a, {
+    sx: {
+      position: "relative",
+      backgroundColor: "grey.800",
+      color: "#fff",
+      mb: 4,
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
+      backgroundImage: "url(".concat(post.image, ")")
+    }
+  }, /*#__PURE__*/external_react_["createElement"]("img", {
+    style: {
+      display: "none"
+    },
+    src: post.image,
+    alt: post.imageText
+  }), /*#__PURE__*/external_react_["createElement"](Box_default.a, {
+    sx: {
+      position: "absolute",
+      top: 0,
+      bottom: 0,
+      right: 0,
+      left: 0,
+      backgroundColor: "rgba(0,0,0,.3)"
+    }
+  }), /*#__PURE__*/external_react_["createElement"](Grid_default.a, {
+    container: true
   }, /*#__PURE__*/external_react_["createElement"](Grid_default.a, {
     item: true,
-    xs: 6
+    md: 6
   }, /*#__PURE__*/external_react_["createElement"](Box_default.a, {
     sx: {
-      p: 2,
-      bgcolor: "background.default",
-      display: "grid",
-      gridTemplateColumns: {
-        md: "1fr 1fr"
+      position: "relative",
+      p: {
+        xs: 3,
+        md: 6
       },
-      gap: 2,
-      width: width,
-      height: "100em"
+      pr: {
+        md: 0
+      }
     }
-  }, /*#__PURE__*/external_react_["createElement"](Item, {
-    elevation: 3,
-    height: "100em"
-  }, /*#__PURE__*/external_react_["createElement"]("img", {
-    src: all_in_coaching_default.a,
-    alt: "Coaching"
-  })))));
-};
+  }, /*#__PURE__*/external_react_["createElement"](Typography_default.a, {
+    component: "h1",
+    variant: "h3",
+    color: "inherit",
+    gutterBottom: true
+  }, post.title), /*#__PURE__*/external_react_["createElement"](Typography_default.a, {
+    variant: "h5",
+    color: "inherit",
+    paragraph: true
+  }, post.description), /*#__PURE__*/external_react_["createElement"](Link_default.a, {
+    variant: "subtitle1",
+    href: "#"
+  }, post.linkText)))));
+}
 
-/* harmony default export */ var Paper = (Paper_PaperImage);
+/* harmony default export */ var components_MainPost = (MainPost);
+// EXTERNAL MODULE: /Users/marcelhacker/Documents/source/megalodon-material/public/analyse.jpg
+var analyse = __webpack_require__(48);
+var analyse_default = /*#__PURE__*/__webpack_require__.n(analyse);
+
 // CONCATENATED MODULE: /Users/marcelhacker/Documents/source/megalodon-material/src/pages/index.js
 
 
+
 /* harmony default export */ var pages = __webpack_exports__["default"] = (function () {
-  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement(Paper, null));
+  var mainFeaturedPost = {
+    title: "Title of a longer featured blog post",
+    description: "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+    image: analyse_default.a,
+    imageText: "main image description",
+    linkText: "Continue reading…"
+  };
+  return /*#__PURE__*/external_react_default.a.createElement("div", null, /*#__PURE__*/external_react_default.a.createElement(components_MainPost, {
+    post: mainFeaturedPost
+  }));
 });
 
 /***/ }),
-/* 45 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1902,9 +1668,9 @@ exports["default"] = void 0;
 
 var _react = _interopRequireDefault(__webpack_require__(0));
 
-var _reactStatic = __webpack_require__(13);
+var _reactStatic = __webpack_require__(11);
 
-var _router = __webpack_require__(12);
+var _router = __webpack_require__(10);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : {
@@ -2019,133 +1785,103 @@ var _default = function _default(_ref) {
 exports["default"] = _default;
 
 /***/ }),
-/* 46 */
+/* 37 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 47 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/AppBar");
 
 /***/ }),
-/* 48 */
+/* 39 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Toolbar");
 
 /***/ }),
-/* 49 */
+/* 40 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Menu");
 
 /***/ }),
-/* 50 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/icons-material/Menu");
 
 /***/ }),
-/* 51 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Tooltip");
 
 /***/ }),
-/* 52 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/MenuItem");
 
 /***/ }),
-/* 53 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/logo.fdba51f4.png";
 
 /***/ }),
-/* 54 */
+/* 45 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/icons-material/Instagram");
 
 /***/ }),
-/* 55 */
+/* 46 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material");
 
 /***/ }),
-/* 56 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = require("@mui/material/Paper");
 
 /***/ }),
-/* 57 */
-/***/ (function(module, exports) {
-
-module.exports = require("@mui/material/styles");
-
-/***/ }),
-/* 58 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Container");
-
-/***/ }),
-/* 59 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Row");
-
-/***/ }),
-/* 60 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-bootstrap/Badge");
-
-/***/ }),
-/* 61 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/analyse.7a6f1789.jpg";
 
 /***/ }),
-/* 62 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/urkunde.987ef503.jpg";
 
 /***/ }),
-/* 63 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/ernaehrung.259877d3.jpg";
-
-/***/ }),
-/* 64 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(65);
-__webpack_require__(67);
-module.exports = __webpack_require__(74);
+__webpack_require__(51);
+__webpack_require__(53);
+module.exports = __webpack_require__(60);
 
 
 /***/ }),
-/* 65 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var plugins = __webpack_require__(66)["default"];
+var plugins = __webpack_require__(52)["default"];
 
-var _require = __webpack_require__(27),
+var _require = __webpack_require__(22),
     registerPlugins = _require.registerPlugins;
 
 registerPlugins(plugins);
@@ -2153,12 +1889,12 @@ registerPlugins(plugins);
 if (false) {}
 
 /***/ }),
-/* 66 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(45);
+/* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(36);
 /* harmony import */ var _react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_react_static_root_node_modules_react_static_plugin_reach_router_browser_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
  // Plugins
@@ -2184,17 +1920,17 @@ var plugins = [{
 /* harmony default export */ __webpack_exports__["default"] = (plugins);
 
 /***/ }),
-/* 67 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 /* eslint-disable import/no-dynamic-require */
 
-var _require = __webpack_require__(27),
+var _require = __webpack_require__(22),
     registerTemplates = _require.registerTemplates;
 
-var _require2 = __webpack_require__(68),
+var _require2 = __webpack_require__(54),
     templates = _require2["default"],
     notFoundTemplate = _require2.notFoundTemplate;
 
@@ -2203,7 +1939,7 @@ registerTemplates(templates, notFoundTemplate);
 if (false) {}
 
 /***/ }),
-/* 68 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2215,14 +1951,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5);
+/* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
 /* harmony import */ var react_universal_component__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_universal_component__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-
-
 
 
 
@@ -2255,7 +1985,7 @@ var universalOptions = {
 var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/404.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/404 */).then(__webpack_require__.bind(null, 28))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2263,7 +1993,7 @@ var t_0 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/404.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(34);
+    return /*require.resolve*/(28);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/404";
@@ -2273,7 +2003,7 @@ t_0.template = '__react_static_root__/src/pages/404.js';
 var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/about.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/about */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/about */).then(__webpack_require__.bind(null, 29))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2281,7 +2011,7 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/about.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(35);
+    return /*require.resolve*/(29);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/about";
@@ -2289,27 +2019,9 @@ var t_1 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
 }), universalOptions);
 t_1.template = '__react_static_root__/src/pages/about.js';
 var t_2 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/pages/bodybuilding.js",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/bodybuilding */).then(__webpack_require__.bind(null, 36))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/bodybuilding.js');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(36);
-  },
-  chunkName: function chunkName() {
-    return "__react_static_root__/src/pages/bodybuilding";
-  }
-}), universalOptions);
-t_2.template = '__react_static_root__/src/pages/bodybuilding.js';
-var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/contact.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/contact */).then(__webpack_require__.bind(null, 37))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/contact */).then(__webpack_require__.bind(null, 30))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2317,17 +2029,17 @@ var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/contact.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(37);
+    return /*require.resolve*/(30);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/contact";
   }
 }), universalOptions);
-t_3.template = '__react_static_root__/src/pages/contact.js';
-var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_2.template = '__react_static_root__/src/pages/contact.js';
+var t_3 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/faq.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/faq */).then(__webpack_require__.bind(null, 38))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/faq */).then(__webpack_require__.bind(null, 31))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2335,17 +2047,17 @@ var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/faq.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(38);
+    return /*require.resolve*/(31);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/faq";
   }
 }), universalOptions);
-t_4.template = '__react_static_root__/src/pages/faq.js';
-var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_3.template = '__react_static_root__/src/pages/faq.js';
+var t_4 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/imprint.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/imprint */).then(__webpack_require__.bind(null, 39))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/imprint */).then(__webpack_require__.bind(null, 32))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2353,17 +2065,17 @@ var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/imprint.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(39);
+    return /*require.resolve*/(32);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/imprint";
   }
 }), universalOptions);
-t_5.template = '__react_static_root__/src/pages/imprint.js';
-var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_4.template = '__react_static_root__/src/pages/imprint.js';
+var t_5 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/index.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 44))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/index */).then(__webpack_require__.bind(null, 35))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2371,35 +2083,17 @@ var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/index.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(44);
+    return /*require.resolve*/(35);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/index";
   }
 }), universalOptions);
-t_6.template = '__react_static_root__/src/pages/index.js';
-var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/pages/online-coaching.js",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/online-coaching */).then(__webpack_require__.bind(null, 40))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/online-coaching.js');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(40);
-  },
-  chunkName: function chunkName() {
-    return "__react_static_root__/src/pages/online-coaching";
-  }
-}), universalOptions);
-t_7.template = '__react_static_root__/src/pages/online-coaching.js';
-var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_5.template = '__react_static_root__/src/pages/index.js';
+var t_6 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/privacy.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/privacy */).then(__webpack_require__.bind(null, 41))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/privacy */).then(__webpack_require__.bind(null, 33))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2407,17 +2101,17 @@ var t_8 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/privacy.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(41);
+    return /*require.resolve*/(33);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/privacy";
   }
 }), universalOptions);
-t_8.template = '__react_static_root__/src/pages/privacy.js';
-var t_9 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
+t_6.template = '__react_static_root__/src/pages/privacy.js';
+var t_7 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
   id: "__react_static_root__/src/pages/qualifications.js",
   load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/qualifications */).then(__webpack_require__.bind(null, 42))]).then(function (proms) {
+    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/qualifications */).then(__webpack_require__.bind(null, 34))]).then(function (proms) {
       return proms[0];
     });
   },
@@ -2425,51 +2119,30 @@ var t_9 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel
     return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/qualifications.js');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(42);
+    return /*require.resolve*/(34);
   },
   chunkName: function chunkName() {
     return "__react_static_root__/src/pages/qualifications";
   }
 }), universalOptions);
-t_9.template = '__react_static_root__/src/pages/qualifications.js';
-var t_10 = react_universal_component__WEBPACK_IMPORTED_MODULE_3___default()(babel_plugin_universal_import_universalImport__WEBPACK_IMPORTED_MODULE_1___default()({
-  id: "__react_static_root__/src/pages/specialforce.js",
-  load: function load() {
-    return Promise.all([Promise.resolve(/* import() | __react_static_root__/src/pages/specialforce */).then(__webpack_require__.bind(null, 43))]).then(function (proms) {
-      return proms[0];
-    });
-  },
-  path: function path() {
-    return path__WEBPACK_IMPORTED_MODULE_0___default.a.join(__dirname, '__react_static_root__/src/pages/specialforce.js');
-  },
-  resolve: function resolve() {
-    return /*require.resolve*/(43);
-  },
-  chunkName: function chunkName() {
-    return "__react_static_root__/src/pages/specialforce";
-  }
-}), universalOptions);
-t_10.template = '__react_static_root__/src/pages/specialforce.js'; // Template Map
+t_7.template = '__react_static_root__/src/pages/qualifications.js'; // Template Map
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   '__react_static_root__/src/pages/404.js': t_0,
   '__react_static_root__/src/pages/about.js': t_1,
-  '__react_static_root__/src/pages/bodybuilding.js': t_2,
-  '__react_static_root__/src/pages/contact.js': t_3,
-  '__react_static_root__/src/pages/faq.js': t_4,
-  '__react_static_root__/src/pages/imprint.js': t_5,
-  '__react_static_root__/src/pages/index.js': t_6,
-  '__react_static_root__/src/pages/online-coaching.js': t_7,
-  '__react_static_root__/src/pages/privacy.js': t_8,
-  '__react_static_root__/src/pages/qualifications.js': t_9,
-  '__react_static_root__/src/pages/specialforce.js': t_10
+  '__react_static_root__/src/pages/contact.js': t_2,
+  '__react_static_root__/src/pages/faq.js': t_3,
+  '__react_static_root__/src/pages/imprint.js': t_4,
+  '__react_static_root__/src/pages/index.js': t_5,
+  '__react_static_root__/src/pages/privacy.js': t_6,
+  '__react_static_root__/src/pages/qualifications.js': t_7
 }); // Not Found Template
 
 var notFoundTemplate = "__react_static_root__/src/pages/404.js";
 /* WEBPACK VAR INJECTION */}.call(this, "/"))
 
 /***/ }),
-/* 69 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = function (module) {
@@ -2498,7 +2171,7 @@ module.exports = function (module) {
 };
 
 /***/ }),
-/* 70 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2525,7 +2198,7 @@ var _extends = Object.assign || function (target) {
 
 exports["default"] = requireUniversalModule;
 
-var _utils = __webpack_require__(20);
+var _utils = __webpack_require__(15);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -2709,14 +2382,14 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 71 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	".": 11,
-	"./": 11,
-	"./index": 11,
-	"./index.js": 11
+	".": 9,
+	"./": 9,
+	"./index": 9,
+	"./index.js": 9
 };
 
 
@@ -2737,16 +2410,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 71;
+webpackContext.id = 57;
 
 /***/ }),
-/* 72 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _typeof = __webpack_require__(19);
+var _typeof = __webpack_require__(14);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2774,11 +2447,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(28);
+var _propTypes = __webpack_require__(16);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _context = __webpack_require__(29);
+var _context = __webpack_require__(23);
 
 var _context2 = _interopRequireDefault(_context);
 
@@ -2850,7 +2523,7 @@ ReportChunks.propTypes = {
 exports["default"] = ReportChunks;
 
 /***/ }),
-/* 73 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2861,11 +2534,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.__handleAfter = exports.__update = undefined;
 
-var _hoistNonReactStatics = __webpack_require__(30);
+var _hoistNonReactStatics = __webpack_require__(24);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _index = __webpack_require__(5);
+var _index = __webpack_require__(4);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -2917,15 +2590,15 @@ var __handleAfter = exports.__handleAfter = function __handleAfter(props, state,
 };
 
 /***/ }),
-/* 74 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireDefault = __webpack_require__(31);
+var _interopRequireDefault = __webpack_require__(25);
 
-var _interopRequireWildcard = __webpack_require__(32);
+var _interopRequireWildcard = __webpack_require__(26);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -2934,9 +2607,9 @@ exports["default"] = void 0;
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
-var _useStaticInfo = __webpack_require__(75);
+var _useStaticInfo = __webpack_require__(61);
 
-var _Suspense = _interopRequireDefault(__webpack_require__(76));
+var _Suspense = _interopRequireDefault(__webpack_require__(62));
 /* eslint-disable import/no-dynamic-require */
 // Override the suspense module to be our own
 // This is expected to break when using preact
@@ -2947,7 +2620,7 @@ var _Suspense = _interopRequireDefault(__webpack_require__(76));
 React.Suspense = _Suspense["default"];
 React["default"].Suspense = _Suspense["default"];
 
-var App = __webpack_require__(78)["default"];
+var App = __webpack_require__(65)["default"];
 
 var _default = function _default(staticInfo) {
   return function (props) {
@@ -2960,30 +2633,30 @@ var _default = function _default(staticInfo) {
 exports["default"] = _default;
 
 /***/ }),
-/* 75 */
+/* 61 */
 /***/ (function(module, exports) {
 
 module.exports = require("/Users/marcelhacker/Documents/source/megalodon-material/node_modules/react-static/lib/browser/hooks/useStaticInfo");
 
 /***/ }),
-/* 76 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _interopRequireWildcard = __webpack_require__(32);
+var _interopRequireWildcard = __webpack_require__(26);
 
-var _interopRequireDefault = __webpack_require__(31);
+var _interopRequireDefault = __webpack_require__(25);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 
-var _extends2 = _interopRequireDefault(__webpack_require__(77));
+var _extends2 = _interopRequireDefault(__webpack_require__(63));
 
-var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(21));
+var _objectWithoutProperties2 = _interopRequireDefault(__webpack_require__(64));
 
 var React = _interopRequireWildcard(__webpack_require__(0));
 
@@ -3004,24 +2677,30 @@ var _default = Suspense;
 exports["default"] = _default;
 
 /***/ }),
-/* 77 */
+/* 63 */
 /***/ (function(module, exports) {
 
 module.exports = require("@babel/runtime/helpers/extends");
 
 /***/ }),
-/* 78 */
+/* 64 */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/helpers/objectWithoutProperties");
+
+/***/ }),
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(22);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(17);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(46);
+/* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(37);
 /* harmony import */ var react_hot_loader__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(18);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(13);
 
 
  // Your top level component
@@ -3047,10 +2726,10 @@ if (typeof document !== "undefined") {
     });
   }
 }
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(79)(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(66)(module)))
 
 /***/ }),
-/* 79 */
+/* 66 */
 /***/ (function(module, exports) {
 
 module.exports = function (originalModule) {
@@ -3080,26 +2759,26 @@ module.exports = function (originalModule) {
 };
 
 /***/ }),
-/* 80 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(33)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // Module
 exports.push([module.i, "* {\n  scroll-behavior: smooth;\n}\n\nbody {\n  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',\n    Helvetica, Arial, 'Lucida Grande', sans-serif;\n  font-weight: 300;\n  font-size: 16px;\n  margin: 0;\n  padding: 0;\n}\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold;\n}\n\nimg {\n  max-width: 100%;\n}\n\nnav {\n  width: 100%;\n  background: #108db8;\n}\n\nnav a {\n  color: white;\n  padding: 1rem;\n  display: inline-block;\n}\n\n.content {\n  padding: 1rem;\n}\n", ""]);
 
 
 
 /***/ }),
-/* 81 */
+/* 68 */
 /***/ (function(module, exports) {
 
 module.exports = require("bootstrap/dist/css/bootstrap.min.css");
 
 /***/ }),
-/* 82 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(33)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // Module
 exports.push([module.i, "/* \n  index\n*/\n.quote {\n  position: absolute;\n  left: 0px;\n  width: 1903px;\n  height: 20%;\n  color: white;\n  margin-top: 6em;\n  border: 0px;\n  background-color: #4894a2;\n}\n\n.qtext {\n  position: absolute;\n  margin-top: 3em;\n  margin-left: 52em;\n}\n\n.carous {\n  margin-top: 60em;\n  position: sticky;\n  top: 300px;\n  margin-bottom: 30em;\n}\n\n/* \n  online-coaching\n*/\n", ""]);
 
