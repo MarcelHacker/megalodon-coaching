@@ -16,24 +16,20 @@ const PriceList = () => {
     {
       title: "Trainingsplan",
       price: "60",
-      description: [
-        "10 users included",
-        "2 GB of storage",
-        "Help center access",
-        "Email support",
-      ],
+      description: ["Zielorientiert", "Effektiv & Effizient", "Individuell"],
       buttonText: "Anfragen",
       buttonVariant: "outlined",
     },
     {
-      title: "Pro",
+      title: "Online Coaching",
       subheader: "Most popular",
       price: "125",
       description: [
-        "20 users included",
-        "10 GB of storage",
-        "Help center access",
-        "Priority email support",
+        //  "20 users included",
+        "Individuallisierter Trainingsplan",
+        "Technikanalyse deiner Übungsausführung",
+        "Wöchentliches Check-In",
+        "Textkommunikation via Messenger",
       ],
       buttonText: "Anfragen",
       buttonVariant: "contained",
@@ -42,10 +38,9 @@ const PriceList = () => {
       title: "Ernährungsplan",
       price: "100",
       description: [
-        "50 users included",
-        "30 GB of storage",
-        "Help center access",
-        "Phone & email support",
+        "Leistungsoptimierung",
+        "Körperfettreduktion",
+        "Kommunikation via E-Mail",
       ],
       buttonText: "Anfragen",
       buttonVariant: "outlined",
@@ -69,7 +64,7 @@ const PriceList = () => {
                 subheader={tier.subheader}
                 titleTypographyProps={{ align: "center" }}
                 action={
-                  tier.title === "Pro" && (
+                  tier.title === "Online Coaching" && (
                     <StarIcon sx={{ color: yellow[800] }} />
                   )
                 }
