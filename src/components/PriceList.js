@@ -19,6 +19,7 @@ const PriceList = () => {
       description: ["Zielorientiert", "Effektiv & Effizient", "Individuell"],
       buttonText: "Anfragen",
       buttonVariant: "outlined",
+      subject: "Trainingsplan",
     },
     {
       title: "Online Coaching",
@@ -33,6 +34,7 @@ const PriceList = () => {
       ],
       buttonText: "Anfragen",
       buttonVariant: "contained",
+      subject: "Online Caoching",
     },
     {
       title: "Ernährungsplan",
@@ -44,6 +46,7 @@ const PriceList = () => {
       ],
       buttonText: "Anfragen",
       buttonVariant: "outlined",
+      subject: "Ernährungsplan",
     },
   ];
   return (
@@ -108,7 +111,11 @@ const PriceList = () => {
                 </ul>
               </CardContent>
               <CardActions>
-                <Button fullWidth variant={tier.buttonVariant}>
+                <Button
+                  fullWidth
+                  variant={tier.buttonVariant}
+                  href={`mailto:megalodoncoaching@gmail.com?subject=${tier.subject}`}
+                >
                   {tier.buttonText}
                 </Button>
               </CardActions>
