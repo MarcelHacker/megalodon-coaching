@@ -6,47 +6,48 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardHeader from "@mui/material/CardHeader";
 import Grid from "@mui/material/Grid";
-import StarIcon from "@mui/icons-material/StarBorder";
+import StarIcon from "@mui/icons-material/Star";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
+import { yellow } from "@mui/material/colors";
 
 const PriceList = () => {
   const tiers = [
     {
-      title: "Free",
-      price: "0",
+      title: "Trainingsplan",
+      price: "60",
       description: [
         "10 users included",
         "2 GB of storage",
         "Help center access",
         "Email support",
       ],
-      buttonText: "Sign up for free",
+      buttonText: "Anfragen",
       buttonVariant: "outlined",
     },
     {
       title: "Pro",
       subheader: "Most popular",
-      price: "15",
+      price: "125",
       description: [
         "20 users included",
         "10 GB of storage",
         "Help center access",
         "Priority email support",
       ],
-      buttonText: "Get started",
+      buttonText: "Anfragen",
       buttonVariant: "contained",
     },
     {
-      title: "Enterprise",
-      price: "30",
+      title: "Ernährungsplan",
+      price: "100",
       description: [
         "50 users included",
         "30 GB of storage",
         "Help center access",
         "Phone & email support",
       ],
-      buttonText: "Contact us",
+      buttonText: "Anfragen",
       buttonVariant: "outlined",
     },
   ];
@@ -67,7 +68,11 @@ const PriceList = () => {
                 title={tier.title}
                 subheader={tier.subheader}
                 titleTypographyProps={{ align: "center" }}
-                action={tier.title === "Pro" ? <StarIcon /> : null}
+                action={
+                  tier.title === "Pro" && (
+                    <StarIcon sx={{ color: yellow[800] }} />
+                  )
+                }
                 subheaderTypographyProps={{
                   align: "center",
                 }}
@@ -88,10 +93,10 @@ const PriceList = () => {
                   }}
                 >
                   <Typography component="h2" variant="h3" color="text.primary">
-                    ${tier.price}
+                    € {tier.price}
                   </Typography>
                   <Typography variant="h6" color="text.secondary">
-                    /mo
+                    /monat
                   </Typography>
                 </Box>
                 <ul>
