@@ -23,7 +23,7 @@ const PriceList = () => {
     },
     {
       title: "Online Coaching",
-      subheader: "Most popular",
+      subheader: "Beliebt",
       price: "125",
       description: [
         //  "20 users included",
@@ -94,7 +94,7 @@ const PriceList = () => {
                     € {tier.price}
                   </Typography>
                   <Typography variant="h6" color="text.secondary">
-                    /monat
+                    {tier.title === "Online Coaching" ? "/monat" : "/einmalig"}
                   </Typography>
                 </Box>
                 <ul>
