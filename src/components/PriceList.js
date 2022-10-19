@@ -61,7 +61,7 @@ const PriceList = () => {
             sm={tier.title === "Enterprise" ? 12 : 6}
             md={4}
           >
-            <Card>
+            <Card className="price">
               <CardHeader
                 title={tier.title}
                 subheader={tier.subheader}

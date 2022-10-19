@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
-    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
@@ -34,4 +34,15 @@ nav a {
 
 .content {
   padding: 1rem;
+}
+
+.price {
+  transition: transform 1.5s ease; /* Animation */
+  margin: auto;
+  padding: auto;
+}
+
+.price:hover {
+  transition: 0.3s ease;
+  transform: scale(1.05);
 }
