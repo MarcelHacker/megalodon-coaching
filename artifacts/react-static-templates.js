@@ -11,7 +11,7 @@ export default {
 '__react_static_root__/src/pages/index.js': require('__react_static_root__/src/pages/index.js').default,
 '__react_static_root__/src/pages/preise.js': require('__react_static_root__/src/pages/preise.js').default,
 '__react_static_root__/src/pages/privacy.js': require('__react_static_root__/src/pages/privacy.js').default,
-'__react_static_root__/src/pages/qualifications.js': require('__react_static_root__/src/pages/qualifications.js').default
+'__react_static_root__/src/pages/qualifikationen.js': require('__react_static_root__/src/pages/qualifikationen.js').default
 }
 
 export const notFoundTemplate = '__react_static_root__/src/pages/404.js'
