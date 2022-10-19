@@ -13,6 +13,7 @@ function MainPost(props) {
     <Paper
       backgroundColor="grey.800"
       sx={{
+        height: "30rem",
         position: "relative",
         backgroundColor: "grey.800",
         color: "#fff",
