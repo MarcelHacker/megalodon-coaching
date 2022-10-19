@@ -1,23 +1,23 @@
-import { Container } from "@mui/material";
-import React from "react";
-import Card from "react-bootstrap/Card";
+import * as React from "react";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
 import urkunde from "../../public/urkunde.jpg";
 
 export default () => {
-  const width = 120;
-  const height = 150;
-
   return (
-    <div>
-      <Container>
-        <Card style={{ width: "30rem" }}>
-          <Card.Img variant="top" src={urkunde} />
-          <Card.Body>
-            <Card.Title>Powerlifting Academy</Card.Title>
-            <Card.Text>Trainerausbildung Kraftdreikampf 2022</Card.Text>
-          </Card.Body>
-        </Card>
-      </Container>
-    </div>
+    <Card sx={{ maxWidth: 400 }}>
+      <CardMedia component="img" image={urkunde} alt="green iguana" />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Trainerausbildung Kraftdreikampf
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Powerlifting Academy 2022
+        </Typography>
+      </CardContent>
+    </Card>
   );
 };
