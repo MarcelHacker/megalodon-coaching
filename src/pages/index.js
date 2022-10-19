@@ -5,8 +5,9 @@ import allInCoaching from "../../public/analyse.jpg";
 export default () => {
   const mainFeaturedPost = {
     title: "Der Weg ist das Ziel",
-    description:
-      "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+    description: `Nur wer sich selbst und den Gegner kennt, wird in allen Schlachten als Sieger hervorgehen. 
+    
+      Wer ich selbt nicht kennt und den Gegner nicht, wird in jeder Schlacht scheitern`,
     image: allInCoaching,
     imageText: "main image description",
   };
